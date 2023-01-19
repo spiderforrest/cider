@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest_hills": "2021-01-05 10:15:53 +0000",
+      "jungle_edge": "2021-01-27 21:56:17 +0000",
+      "river": "2021-01-27 20:13:11 +0000"
+    },
+    "done": false
+  }
+}

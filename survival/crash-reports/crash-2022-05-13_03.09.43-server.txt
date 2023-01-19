@@ -1,0 +1,3179 @@
+---- Minecraft Crash Report ----
+// I just don't know what went wrong :(
+
+Time: 5/13/22, 3:09 AM
+Description: Exception while updating neighbours
+
+java.lang.StackOverflowError: Exception while updating neighbours
+	at on.b(ChunkProviderServer.java:127)
+	at on.c(ChunkProviderServer.java:154)
+	at amu.a(World.java:359)
+	at amu.f(World.java:351)
+	at amu.o(World.java:983)
+	at asv.a(BlockRailPowered.java:153)
+	at asv.a(BlockRailPowered.java:140)
+	at asv.a(BlockRailPowered.java:169)
+	at asv.a(BlockRailPowered.java:140)
+	at asv.a(BlockRailPowered.java:169)
+	at asv.a(BlockRailPowered.java:140)
+	at asv.a(BlockRailPowered.java:169)
+	at asv.a(BlockRailPowered.java:140)
+	at asv.a(BlockRailPowered.java:191)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:578)
+	at asv.a(BlockRailPowered.java:196)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at on.b(ChunkProviderServer.java:127)
+	at on.c(ChunkProviderServer.java:154)
+	at amu.a(World.java:359)
+	at amu.f(World.java:351)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,43,396), Chunk: (at 11,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+Stacktrace:
+	at amu.a(World.java:678)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:580)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:578)
+	at asv.a(BlockRailPowered.java:196)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:576)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:581)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+	at amu.a(World.java:673)
+	at amu.b(World.java:577)
+	at amu.a(World.java:491)
+	at amu.a(World.java:420)
+	at asv.a(BlockRailPowered.java:195)
+	at aos.a(BlockRailBase.java:164)
+	at awu$a.a(SourceFile:418)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,43,396), Chunk: (at 10,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,43,396), Chunk: (at 9,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,43,396), Chunk: (at 8,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,43,396), Chunk: (at 7,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,43,397), Chunk: (at 7,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,43,397), Chunk: (at 8,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,43,397), Chunk: (at 9,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,43,397), Chunk: (at 10,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,43,397), Chunk: (at 11,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,43,397), Chunk: (at 12,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,43,397), Chunk: (at 13,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,43,397), Chunk: (at 14,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,43,397), Chunk: (at 15,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,43,398), Chunk: (at 15,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,43,398), Chunk: (at 14,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,43,398), Chunk: (at 13,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,43,398), Chunk: (at 12,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,43,398), Chunk: (at 11,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,43,398), Chunk: (at 10,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,43,398), Chunk: (at 9,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,43,398), Chunk: (at 8,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,43,398), Chunk: (at 7,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,43,399), Chunk: (at 7,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,43,399), Chunk: (at 8,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,43,399), Chunk: (at 9,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,43,399), Chunk: (at 10,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,43,399), Chunk: (at 11,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,43,399), Chunk: (at 12,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,43,399), Chunk: (at 13,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,43,399), Chunk: (at 14,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,43,399), Chunk: (at 15,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,43,400), Chunk: (at 15,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,43,400), Chunk: (at 14,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,43,400), Chunk: (at 13,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,43,400), Chunk: (at 12,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,43,400), Chunk: (at 11,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,43,400), Chunk: (at 10,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,43,400), Chunk: (at 9,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,43,400), Chunk: (at 8,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,43,400), Chunk: (at 7,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,400), Chunk: (at 7,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,400), Chunk: (at 8,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,400), Chunk: (at 9,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,400), Chunk: (at 10,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,400), Chunk: (at 11,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,400), Chunk: (at 12,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,400), Chunk: (at 13,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,400), Chunk: (at 14,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,400), Chunk: (at 15,2,0 in 22,25; contains blocks 352,0,400 to 367,255,415), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,399), Chunk: (at 15,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,399), Chunk: (at 14,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,399), Chunk: (at 13,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,399), Chunk: (at 12,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,399), Chunk: (at 11,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,399), Chunk: (at 10,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,399), Chunk: (at 9,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,399), Chunk: (at 8,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,399), Chunk: (at 7,2,15 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,398), Chunk: (at 7,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,398), Chunk: (at 8,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,398), Chunk: (at 9,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,398), Chunk: (at 10,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,398), Chunk: (at 11,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,398), Chunk: (at 12,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,398), Chunk: (at 13,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,398), Chunk: (at 14,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,398), Chunk: (at 15,2,14 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,397), Chunk: (at 15,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,397), Chunk: (at 14,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,397), Chunk: (at 13,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,397), Chunk: (at 12,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,397), Chunk: (at 11,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,397), Chunk: (at 10,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,397), Chunk: (at 9,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,397), Chunk: (at 8,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,397), Chunk: (at 7,2,13 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,396), Chunk: (at 7,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,396), Chunk: (at 8,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,396), Chunk: (at 9,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,396), Chunk: (at 10,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,396), Chunk: (at 11,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,396), Chunk: (at 12,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,396), Chunk: (at 13,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,396), Chunk: (at 14,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,396), Chunk: (at 15,2,12 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,395), Chunk: (at 15,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,395), Chunk: (at 14,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,395), Chunk: (at 13,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,395), Chunk: (at 12,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,395), Chunk: (at 11,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,395), Chunk: (at 10,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,395), Chunk: (at 9,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,395), Chunk: (at 8,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,395), Chunk: (at 7,2,11 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,394), Chunk: (at 7,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,394), Chunk: (at 8,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,394), Chunk: (at 9,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,394), Chunk: (at 10,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,394), Chunk: (at 11,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,394), Chunk: (at 12,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,394), Chunk: (at 13,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,394), Chunk: (at 14,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,394), Chunk: (at 15,2,10 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,393), Chunk: (at 15,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,393), Chunk: (at 14,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,393), Chunk: (at 13,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,393), Chunk: (at 12,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,393), Chunk: (at 11,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,393), Chunk: (at 10,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,393), Chunk: (at 9,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,393), Chunk: (at 8,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,393), Chunk: (at 7,2,9 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,392), Chunk: (at 7,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,392), Chunk: (at 8,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,392), Chunk: (at 9,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,392), Chunk: (at 10,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,392), Chunk: (at 11,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,392), Chunk: (at 12,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,392), Chunk: (at 13,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,392), Chunk: (at 14,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,392), Chunk: (at 15,2,8 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,391), Chunk: (at 15,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,391), Chunk: (at 14,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,391), Chunk: (at 13,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,391), Chunk: (at 12,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,391), Chunk: (at 11,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,391), Chunk: (at 10,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,391), Chunk: (at 9,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,391), Chunk: (at 8,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,391), Chunk: (at 7,2,7 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,390), Chunk: (at 7,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,390), Chunk: (at 8,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,390), Chunk: (at 9,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,390), Chunk: (at 10,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,390), Chunk: (at 11,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,390), Chunk: (at 12,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,390), Chunk: (at 13,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,390), Chunk: (at 14,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,390), Chunk: (at 15,2,6 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,389), Chunk: (at 15,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,389), Chunk: (at 14,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,389), Chunk: (at 13,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,389), Chunk: (at 12,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,389), Chunk: (at 11,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,389), Chunk: (at 10,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,389), Chunk: (at 9,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,389), Chunk: (at 8,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,389), Chunk: (at 7,2,5 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,388), Chunk: (at 7,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,388), Chunk: (at 8,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,388), Chunk: (at 9,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,388), Chunk: (at 10,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,388), Chunk: (at 11,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,388), Chunk: (at 12,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,388), Chunk: (at 13,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,388), Chunk: (at 14,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,388), Chunk: (at 15,2,4 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,387), Chunk: (at 15,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,387), Chunk: (at 14,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,387), Chunk: (at 13,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,387), Chunk: (at 12,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,387), Chunk: (at 11,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,387), Chunk: (at 10,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,387), Chunk: (at 9,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,387), Chunk: (at 8,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,387), Chunk: (at 7,2,3 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (359,45,386), Chunk: (at 7,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (360,45,386), Chunk: (at 8,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (361,45,386), Chunk: (at 9,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (362,45,386), Chunk: (at 10,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (363,45,386), Chunk: (at 11,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (364,45,386), Chunk: (at 12,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (365,45,386), Chunk: (at 13,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (366,45,386), Chunk: (at 14,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=east_west]
+	Block location: World: (367,45,386), Chunk: (at 15,2,2 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=north_south]
+	Block location: World: (367,46,385), Chunk: (at 15,2,1 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=north_south]
+	Block location: World: (367,46,384), Chunk: (at 15,2,0 in 22,24; contains blocks 352,0,384 to 367,255,399), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=ascending_south]
+	Block location: World: (367,45,383), Chunk: (at 15,2,15 in 22,23; contains blocks 352,0,368 to 367,255,383), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #27 (tile.goldenRail // asv)
+	Block: minecraft:golden_rail[powered=true,shape=ascending_north]
+	Block location: World: (367,45,382), Chunk: (at 15,2,14 in 22,23; contains blocks 352,0,368 to 367,255,383), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Block being updated --
+Details:
+	Source block type: ID #95 (tile.stainedGlass // aua)
+	Block: minecraft:golden_rail[powered=true,shape=north_south]
+	Block location: World: (367,46,381), Chunk: (at 15,2,13 in 22,23; contains blocks 352,0,368 to 367,255,383), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+
+-- Affected level --
+Details:
+	Level name: Cider
+	All players: 2 total; [EntityPlayerMPFake['tmp'/1419, l='Cider', x=147.50, y=6.00, z=59.50], oq['spidelini'/162914, l='Cider', x=366.40, y=46.00, z=383.70]]
+	Chunk stats: ServerChunkCache: 1938 Drop: 0
+	Level seed: 993341264803355292
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (236,64,256), Chunk: (at 12,4,0 in 14,16; contains blocks 224,0,256 to 239,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 373540443 game time, 361348042 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 42376 (now: false), thunder time: 152487 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.17.5-hardened1-1-hardened
+	Java Version: 11.0.15, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 599010672 bytes (571 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: ~~ERROR~~ StackOverflowError: null
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 2 / 100; [EntityPlayerMPFake['tmp'/1419, l='Cider', x=147.50, y=6.00, z=59.50], oq['spidelini'/162914, l='Cider', x=366.40, y=46.00, z=383.70]]
+	Is Modded: Definitely; Server brand changed to 'carpetmod'
+	Type: Dedicated Server (map_server.txt)

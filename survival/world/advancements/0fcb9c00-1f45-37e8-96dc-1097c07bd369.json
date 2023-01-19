@@ -1,0 +1,14 @@
+{
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-12-01 21:37:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "beaches": "2020-12-01 21:37:48 +0000"
+    },
+    "done": false
+  }
+}

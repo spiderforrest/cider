@@ -1,0 +1,12 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2020-11-27 01:55:12 +0000",
+      "forest_hills": "2020-11-27 01:47:48 +0000",
+      "plains": "2020-11-27 01:39:58 +0000",
+      "extreme_hills": "2020-11-27 01:58:15 +0000",
+      "river": "2020-11-27 01:51:00 +0000"
+    },
+    "done": false
+  }
+}

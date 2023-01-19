@@ -1,0 +1,34 @@
+---- Minecraft Crash Report ----
+// Oh - I know what I did wrong!
+
+Time: 6/29/21, 9:12 PM
+Description: Exception in server tick loop
+
+java.util.ConcurrentModificationException
+	at java.base/java.util.TreeMap.callMappingFunctionWithCheck(TreeMap.java:742)
+	at java.base/java.util.TreeMap.computeIfAbsent(TreeMap.java:558)
+	at carpet.pubsub.PubSubManager.getOrCreateNode(PubSubManager.java:41)
+	at carpet.pubsub.PubSubInfoProvider.<init>(PubSubInfoProvider.java:18)
+	at carpet.CarpetServer.onLoadAllWorlds(CarpetServer.java:81)
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:325)
+	at nz.j(DedicatedServer.java:270)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:540)
+	at java.base/java.lang.Thread.run(Thread.java:831)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 5.12.9-zen1-1-zen
+	Java Version: 16.0.1, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 4140213760 bytes (3948 MB) / 4294967296 bytes (4096 MB) up to 4294967296 bytes (4096 MB)
+	JVM Flags: 2 total; -Xmx4096M -Xms4096M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 100; []
+	Is Modded: Definitely; Server brand changed to 'carpetmod'
+	Type: Dedicated Server (map_server.txt)

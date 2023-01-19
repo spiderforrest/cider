@@ -1,0 +1,15 @@
+{
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-08-02 00:19:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "birch_forest": "2020-08-02 00:19:32 +0000",
+      "taiga_hills": "2020-07-26 04:12:47 +0000"
+    },
+    "done": false
+  }
+}

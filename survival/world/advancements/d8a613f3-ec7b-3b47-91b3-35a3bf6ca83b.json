@@ -1,0 +1,14 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-11-26 08:47:50 +0000",
+      "extreme_hills_with_trees": "2020-11-26 08:43:39 +0000",
+      "plains": "2020-11-26 08:51:32 +0000",
+      "jungle_edge": "2020-11-26 08:43:05 +0000",
+      "extreme_hills": "2020-11-26 08:43:18 +0000",
+      "river": "2020-11-26 08:48:09 +0000",
+      "jungle": "2020-11-26 08:39:37 +0000"
+    },
+    "done": false
+  }
+}

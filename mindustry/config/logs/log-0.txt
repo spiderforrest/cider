@@ -1,0 +1,842 @@
+[12-22-2022 04:36:10] [I] Server loaded. Type 'help' for help.
+[12-22-2022 04:36:10] [I] Found 1 command-line arguments to parse.
+[12-22-2022 04:36:10] [E] Invalid command argument sent: 'nogui': unknownCommand
+[12-22-2022 04:36:10] [E] Argument usage: <command-1> <command1-args...>,<command-2> <command-2-args2...>
+[12-22-2022 04:37:17] [I] Server loaded. Type 'help' for help.
+[12-22-2022 04:37:19] [I] Commands:
+[12-22-2022 04:37:19] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-22-2022 04:37:19] [I]    version - Displays server version info.
+[12-22-2022 04:37:19] [I]    exit - Exit the server application.
+[12-22-2022 04:37:19] [I]    stop - Stop hosting the server.
+[12-22-2022 04:37:19] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-22-2022 04:37:19] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-22-2022 04:37:19] [I]    reloadmaps - Reload all maps from disk.
+[12-22-2022 04:37:19] [I]    status - Display server status.
+[12-22-2022 04:37:19] [I]    mods - Display all loaded mods.
+[12-22-2022 04:37:19] [I]    mod <name...> - Display information about a loaded plugin.
+[12-22-2022 04:37:19] [I]    js <script...> - Run arbitrary Javascript.
+[12-22-2022 04:37:19] [I]    say <message...> - Send a message to all players.
+[12-22-2022 04:37:19] [I]    pause <on/off> - Pause or unpause the game.
+[12-22-2022 04:37:19] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-22-2022 04:37:19] [I]    fillitems [team] - Fill the core with items.
+[12-22-2022 04:37:19] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-22-2022 04:37:19] [I]    config [name] [value...] - Configure server settings.
+[12-22-2022 04:37:19] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-22-2022 04:37:19] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-22-2022 04:37:19] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-22-2022 04:37:19] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-22-2022 04:37:19] [I]    kick <username...> - Kick a person by name.
+[12-22-2022 04:37:19] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-22-2022 04:37:19] [I]    bans - List all banned IPs and IDs.
+[12-22-2022 04:37:19] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-22-2022 04:37:19] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-22-2022 04:37:19] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-22-2022 04:37:19] [I]    admins - List all admins.
+[12-22-2022 04:37:19] [I]    players - List all players currently in game.
+[12-22-2022 04:37:19] [I]    runwave - Trigger the next wave.
+[12-22-2022 04:37:19] [I]    load <slot> - Load a save from a slot.
+[12-22-2022 04:37:19] [I]    save <slot> - Save game state to a slot.
+[12-22-2022 04:37:19] [I]    saves - List all saves in the save directory.
+[12-22-2022 04:37:19] [I]    gameover - Force a game over.
+[12-22-2022 04:37:19] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-22-2022 04:37:19] [I]    search <name...> - Search players who have used part of a name.
+[12-22-2022 04:37:19] [I]    gc - Trigger a garbage collection. Testing only.
+[12-22-2022 04:37:19] [I]    yes - Run the last suggested incorrect command.
+[12-22-2022 04:40:04] [I] Save files: 
+[12-22-2022 04:40:29] [E] Too few command arguments. Usage: nextmap <mapname...>
+[12-22-2022 04:40:39] [I] Status: server closed
+[12-22-2022 04:40:57] [I] Commands:
+[12-22-2022 04:40:57] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-22-2022 04:40:57] [I]    version - Displays server version info.
+[12-22-2022 04:40:57] [I]    exit - Exit the server application.
+[12-22-2022 04:40:57] [I]    stop - Stop hosting the server.
+[12-22-2022 04:40:57] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-22-2022 04:40:57] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-22-2022 04:40:57] [I]    reloadmaps - Reload all maps from disk.
+[12-22-2022 04:40:57] [I]    status - Display server status.
+[12-22-2022 04:40:57] [I]    mods - Display all loaded mods.
+[12-22-2022 04:40:57] [I]    mod <name...> - Display information about a loaded plugin.
+[12-22-2022 04:40:57] [I]    js <script...> - Run arbitrary Javascript.
+[12-22-2022 04:40:57] [I]    say <message...> - Send a message to all players.
+[12-22-2022 04:40:57] [I]    pause <on/off> - Pause or unpause the game.
+[12-22-2022 04:40:57] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-22-2022 04:40:57] [I]    fillitems [team] - Fill the core with items.
+[12-22-2022 04:40:57] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-22-2022 04:40:57] [I]    config [name] [value...] - Configure server settings.
+[12-22-2022 04:40:57] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-22-2022 04:40:57] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-22-2022 04:40:57] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-22-2022 04:40:57] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-22-2022 04:40:57] [I]    kick <username...> - Kick a person by name.
+[12-22-2022 04:40:57] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-22-2022 04:40:57] [I]    bans - List all banned IPs and IDs.
+[12-22-2022 04:40:57] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-22-2022 04:40:57] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-22-2022 04:40:57] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-22-2022 04:40:57] [I]    admins - List all admins.
+[12-22-2022 04:40:57] [I]    players - List all players currently in game.
+[12-22-2022 04:40:57] [I]    runwave - Trigger the next wave.
+[12-22-2022 04:40:57] [I]    load <slot> - Load a save from a slot.
+[12-22-2022 04:40:57] [I]    save <slot> - Save game state to a slot.
+[12-22-2022 04:40:57] [I]    saves - List all saves in the save directory.
+[12-22-2022 04:40:57] [I]    gameover - Force a game over.
+[12-22-2022 04:40:57] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-22-2022 04:40:57] [I]    search <name...> - Search players who have used part of a name.
+[12-22-2022 04:40:57] [I]    gc - Trigger a garbage collection. Testing only.
+[12-22-2022 04:40:57] [I]    yes - Run the last suggested incorrect command.
+[12-22-2022 04:41:02] [I] No custom maps loaded. To display built-in maps, use the "all" argument.
+[12-22-2022 04:41:02] [I] Map directory: /home/mine/config/maps
+[12-22-2022 04:41:05] [I] Maps:
+[12-22-2022 04:41:05] [I]   Ancient_Caldera: Default / 256x256
+[12-22-2022 04:41:05] [I]   Archipelago: Default / 500x500
+[12-22-2022 04:41:05] [I]   Debris_Field: Default / 400x400
+[12-22-2022 04:41:05] [I]   Domain: Default / 494x494
+[12-22-2022 04:41:05] [I]   Fork: Default / 250x300
+[12-22-2022 04:41:05] [I]   Fortress: Default / 256x256
+[12-22-2022 04:41:05] [I]   Glacier: Default / 150x250
+[12-22-2022 04:41:05] [I]   Islands: Default / 256x256
+[12-22-2022 04:41:05] [I]   Labyrinth: Default / 200x200
+[12-22-2022 04:41:05] [I]   Maze: Default / 256x256
+[12-22-2022 04:41:05] [I]   Molten_Lake: Default / 400x400
+[12-22-2022 04:41:05] [I]   Mud_Flats: Default / 400x400
+[12-22-2022 04:41:05] [I]   Passage: Default / 500x120
+[12-22-2022 04:41:05] [I]   Shattered: Default / 350x350
+[12-22-2022 04:41:05] [I]   Tendrils: Default / 300x300
+[12-22-2022 04:41:05] [I]   Triad: Default / 200x200
+[12-22-2022 04:41:05] [I]   Veins: Default / 350x200
+[12-22-2022 04:41:05] [I]   Wasteland: Default / 300x300
+[12-22-2022 04:41:05] [I] Map directory: /home/mine/config/maps
+[12-22-2022 04:42:14] [I] Commands:
+[12-22-2022 04:42:14] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-22-2022 04:42:14] [I]    version - Displays server version info.
+[12-22-2022 04:42:14] [I]    exit - Exit the server application.
+[12-22-2022 04:42:14] [I]    stop - Stop hosting the server.
+[12-22-2022 04:42:14] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-22-2022 04:42:14] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-22-2022 04:42:14] [I]    reloadmaps - Reload all maps from disk.
+[12-22-2022 04:42:14] [I]    status - Display server status.
+[12-22-2022 04:42:14] [I]    mods - Display all loaded mods.
+[12-22-2022 04:42:14] [I]    mod <name...> - Display information about a loaded plugin.
+[12-22-2022 04:42:14] [I]    js <script...> - Run arbitrary Javascript.
+[12-22-2022 04:42:14] [I]    say <message...> - Send a message to all players.
+[12-22-2022 04:42:14] [I]    pause <on/off> - Pause or unpause the game.
+[12-22-2022 04:42:14] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-22-2022 04:42:14] [I]    fillitems [team] - Fill the core with items.
+[12-22-2022 04:42:14] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-22-2022 04:42:14] [I]    config [name] [value...] - Configure server settings.
+[12-22-2022 04:42:14] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-22-2022 04:42:14] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-22-2022 04:42:14] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-22-2022 04:42:14] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-22-2022 04:42:14] [I]    kick <username...> - Kick a person by name.
+[12-22-2022 04:42:14] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-22-2022 04:42:14] [I]    bans - List all banned IPs and IDs.
+[12-22-2022 04:42:14] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-22-2022 04:42:14] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-22-2022 04:42:14] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-22-2022 04:42:14] [I]    admins - List all admins.
+[12-22-2022 04:42:14] [I]    players - List all players currently in game.
+[12-22-2022 04:42:14] [I]    runwave - Trigger the next wave.
+[12-22-2022 04:42:14] [I]    load <slot> - Load a save from a slot.
+[12-22-2022 04:42:14] [I]    save <slot> - Save game state to a slot.
+[12-22-2022 04:42:14] [I]    saves - List all saves in the save directory.
+[12-22-2022 04:42:14] [I]    gameover - Force a game over.
+[12-22-2022 04:42:14] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-22-2022 04:42:14] [I]    search <name...> - Search players who have used part of a name.
+[12-22-2022 04:42:14] [I]    gc - Trigger a garbage collection. Testing only.
+[12-22-2022 04:42:14] [I]    yes - Run the last suggested incorrect command.
+[12-22-2022 04:42:29] [I] Loading map...
+[12-22-2022 04:42:30] [I] Map loaded.
+[12-22-2022 04:42:30] [I] Opened a server on port 6567.
+[12-22-2022 04:43:15] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 04:43:39] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-22-2022 04:44:40] [I] Whitelist:
+[12-22-2022 04:44:40] [I] - Name: death to all that don't have 8 legs / UUID: xFWcNk+dH3EAAAAAcgLnVg==
+[12-22-2022 04:47:28] [I] All config values:
+[12-22-2022 04:47:28] [I] | name: Server
+[12-22-2022 04:47:28] [I] | | The server name as displayed on clients.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | desc: off
+[12-22-2022 04:47:28] [I] | | The server description, displayed under the name. Max 100 characters.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | port: 6567
+[12-22-2022 04:47:28] [I] | | The port to host on.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | autoUpdate: false
+[12-22-2022 04:47:28] [I] | | Whether to auto-update and exit when a new bleeding-edge update arrives.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | showConnectMessages: true
+[12-22-2022 04:47:28] [I] | | Whether to display connect/disconnect messages.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | enableVotekick: true
+[12-22-2022 04:47:28] [I] | | Whether votekick is enabled.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | startCommands: 
+[12-22-2022 04:47:28] [I] | | Commands run at startup. This should be a comma-separated list.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | logging: true
+[12-22-2022 04:47:28] [I] | | Whether to log everything to files.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | strict: true
+[12-22-2022 04:47:28] [I] | | Whether strict mode is on - corrects positions and prevents duplicate UUIDs.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | antiSpam: true
+[12-22-2022 04:47:28] [I] | | Whether spammers are automatically kicked and rate-limited.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | interactRateWindow: 6
+[12-22-2022 04:47:28] [I] | | Block interaction rate limit window, in seconds.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | interactRateLimit: 25
+[12-22-2022 04:47:28] [I] | | Block interaction rate limit.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | interactRateKick: 60
+[12-22-2022 04:47:28] [I] | | How many times a player must interact inside the window to get kicked.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | messageRateLimit: 0
+[12-22-2022 04:47:28] [I] | | Message rate limit in seconds. 0 to disable.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | messageSpamKick: 3
+[12-22-2022 04:47:28] [I] | | How many times a player must send a message before the cooldown to get kicked. 0 to disable.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | packetSpamLimit: 300
+[12-22-2022 04:47:28] [I] | | Limit for packet count sent within 3sec that will lead to a blacklist + kick.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | packetSpamLimit: 20
+[12-22-2022 04:47:28] [I] | | Limit for chat packet count sent within 2sec that will lead to a blacklist + kick. Not the same as a rate limit.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | socketInput: false
+[12-22-2022 04:47:28] [I] | | Allows a local application to control this server through a local TCP socket.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | socketInputPort: 6859
+[12-22-2022 04:47:28] [I] | | The port for socket input.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | socketInputAddress: localhost
+[12-22-2022 04:47:28] [I] | | The bind address for socket input.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | allowCustomClients: false
+[12-22-2022 04:47:28] [I] | | Whether custom clients are allowed to connect.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | whitelist: false
+[12-22-2022 04:47:28] [I] | | Whether the whitelist is used.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | motd: off
+[12-22-2022 04:47:28] [I] | | The message displayed to people on connection.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | autosave: false
+[12-22-2022 04:47:28] [I] | | Whether the periodically save the map when playing.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | autosaveAmount: 10
+[12-22-2022 04:47:28] [I] | | The maximum amount of autosaves. Older ones get replaced.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | autosaveSpacing: 300
+[12-22-2022 04:47:28] [I] | | Spacing between autosaves in seconds.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | debug: false
+[12-22-2022 04:47:28] [I] | | Enable debug logging.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | snapshotInterval: 200
+[12-22-2022 04:47:28] [I] | | Client entity snapshot interval in ms.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:28] [I] | autoPause: false
+[12-22-2022 04:47:28] [I] | | Whether the game should pause when nobody is online.
+[12-22-2022 04:47:28] [I] |
+[12-22-2022 04:47:48] [I] allowCustomClients set to true.
+[12-22-2022 04:48:13] [I] Game over! Reached wave 2 with 0 players online on map Molten Lake.
+[12-22-2022 04:48:13] [I] Selected next map to be Fortress.
+[12-22-2022 04:48:35] [I] autoPause set to true.
+[12-22-2022 04:49:05] [I] No ID-banned players have been found.
+[12-22-2022 04:49:05] [I] No IP-banned players have been found.
+[12-22-2022 04:53:42] [I] Game over! Reached wave 2 with 0 players online on map Fortress.
+[12-22-2022 04:53:42] [I] Selected next map to be Islands.
+[12-22-2022 04:54:03] [I] Version: Mindustry 7-release official / build 140.4
+[12-22-2022 04:54:03] [I] Java Version: 11.0.16.1
+[12-22-2022 04:55:25] [I] Rancharoni has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-22-2022 04:55:31] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 05:43:03] [I] Game over! Reached wave 24 with 2 players online on map Islands.
+[12-22-2022 05:43:03] [I] Selected next map to be Fork.
+[12-22-2022 05:52:59] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-22-2022 05:53:21] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 05:54:57] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[12-22-2022 06:59:58] [I] Game over! Reached wave 38 with 3 players online on map Fork.
+[12-22-2022 06:59:58] [I] Selected next map to be Mud Flats.
+[12-22-2022 07:00:03] [E] No map 'Moltestop' found.
+[12-22-2022 07:00:15] [I] Next map set to 'Molten Lake'.
+[12-22-2022 07:00:20] [I] Commands:
+[12-22-2022 07:00:20] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-22-2022 07:00:20] [I]    version - Displays server version info.
+[12-22-2022 07:00:20] [I]    exit - Exit the server application.
+[12-22-2022 07:00:20] [I]    stop - Stop hosting the server.
+[12-22-2022 07:00:20] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-22-2022 07:00:20] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-22-2022 07:00:20] [I]    reloadmaps - Reload all maps from disk.
+[12-22-2022 07:00:20] [I]    status - Display server status.
+[12-22-2022 07:00:20] [I]    mods - Display all loaded mods.
+[12-22-2022 07:00:20] [I]    mod <name...> - Display information about a loaded plugin.
+[12-22-2022 07:00:20] [I]    js <script...> - Run arbitrary Javascript.
+[12-22-2022 07:00:20] [I]    say <message...> - Send a message to all players.
+[12-22-2022 07:00:20] [I]    pause <on/off> - Pause or unpause the game.
+[12-22-2022 07:00:20] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-22-2022 07:00:20] [I]    fillitems [team] - Fill the core with items.
+[12-22-2022 07:00:20] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-22-2022 07:00:20] [I]    config [name] [value...] - Configure server settings.
+[12-22-2022 07:00:20] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-22-2022 07:00:20] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-22-2022 07:00:20] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-22-2022 07:00:20] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-22-2022 07:00:20] [I]    kick <username...> - Kick a person by name.
+[12-22-2022 07:00:20] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-22-2022 07:00:20] [I]    bans - List all banned IPs and IDs.
+[12-22-2022 07:00:20] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-22-2022 07:00:20] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-22-2022 07:00:20] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-22-2022 07:00:20] [I]    admins - List all admins.
+[12-22-2022 07:00:20] [I]    players - List all players currently in game.
+[12-22-2022 07:00:20] [I]    runwave - Trigger the next wave.
+[12-22-2022 07:00:20] [I]    load <slot> - Load a save from a slot.
+[12-22-2022 07:00:20] [I]    save <slot> - Save game state to a slot.
+[12-22-2022 07:00:20] [I]    saves - List all saves in the save directory.
+[12-22-2022 07:00:20] [I]    gameover - Force a game over.
+[12-22-2022 07:00:20] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-22-2022 07:00:20] [I]    search <name...> - Search players who have used part of a name.
+[12-22-2022 07:00:20] [I]    gc - Trigger a garbage collection. Testing only.
+[12-22-2022 07:00:20] [I]    yes - Run the last suggested incorrect command.
+[12-22-2022 07:00:39] [I] Core destroyed.
+[12-22-2022 07:00:39] [I] Game over! Reached wave 1 with 3 players online on map Mud Flats.
+[12-22-2022 07:00:39] [I] Selected next map to be Molten Lake.
+[12-22-2022 07:20:37] [I] Game over! Reached wave 9 with 3 players online on map Molten Lake.
+[12-22-2022 07:20:37] [I] Selected next map to be Fortress.
+[12-22-2022 07:20:48] [I] Next map set to 'Molten Lake'.
+[12-22-2022 07:20:50] [I] Core destroyed.
+[12-22-2022 07:20:50] [I] Game over! Reached wave 1 with 3 players online on map Fortress.
+[12-22-2022 07:20:50] [I] Selected next map to be Molten Lake.
+[12-22-2022 08:08:54] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 08:14:26] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 08:14:58] [I] <Rancharoni: /sync>
+[12-22-2022 08:15:09] [I] <dingus master: /sync>
+[12-22-2022 08:18:40] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 08:21:29] [I] <dingus master: /sync>
+[12-22-2022 08:29:57] [I] Saved to config/saves/12.21.msav.
+[12-22-2022 08:34:49] [I] <Rancharoni: /sync>
+[12-22-2022 08:42:14] [I] <Rancharoni: /sync>
+[12-22-2022 09:21:05] [I] Rancharoni has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (disappeared)
+[12-22-2022 09:23:07] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-22-2022 09:23:21] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[12-22-2022 09:23:22] [I] All config values:
+[12-22-2022 09:23:22] [I] | name: Server
+[12-22-2022 09:23:22] [I] | | The server name as displayed on clients.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | desc: off
+[12-22-2022 09:23:22] [I] | | The server description, displayed under the name. Max 100 characters.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | port: 6567
+[12-22-2022 09:23:22] [I] | | The port to host on.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | autoUpdate: false
+[12-22-2022 09:23:22] [I] | | Whether to auto-update and exit when a new bleeding-edge update arrives.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | showConnectMessages: true
+[12-22-2022 09:23:22] [I] | | Whether to display connect/disconnect messages.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | enableVotekick: true
+[12-22-2022 09:23:22] [I] | | Whether votekick is enabled.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | startCommands: 
+[12-22-2022 09:23:22] [I] | | Commands run at startup. This should be a comma-separated list.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | logging: true
+[12-22-2022 09:23:22] [I] | | Whether to log everything to files.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | strict: true
+[12-22-2022 09:23:22] [I] | | Whether strict mode is on - corrects positions and prevents duplicate UUIDs.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | antiSpam: true
+[12-22-2022 09:23:22] [I] | | Whether spammers are automatically kicked and rate-limited.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | interactRateWindow: 6
+[12-22-2022 09:23:22] [I] | | Block interaction rate limit window, in seconds.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | interactRateLimit: 25
+[12-22-2022 09:23:22] [I] | | Block interaction rate limit.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | interactRateKick: 60
+[12-22-2022 09:23:22] [I] | | How many times a player must interact inside the window to get kicked.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | messageRateLimit: 0
+[12-22-2022 09:23:22] [I] | | Message rate limit in seconds. 0 to disable.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | messageSpamKick: 3
+[12-22-2022 09:23:22] [I] | | How many times a player must send a message before the cooldown to get kicked. 0 to disable.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | packetSpamLimit: 300
+[12-22-2022 09:23:22] [I] | | Limit for packet count sent within 3sec that will lead to a blacklist + kick.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | packetSpamLimit: 20
+[12-22-2022 09:23:22] [I] | | Limit for chat packet count sent within 2sec that will lead to a blacklist + kick. Not the same as a rate limit.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | socketInput: false
+[12-22-2022 09:23:22] [I] | | Allows a local application to control this server through a local TCP socket.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | socketInputPort: 6859
+[12-22-2022 09:23:22] [I] | | The port for socket input.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | socketInputAddress: localhost
+[12-22-2022 09:23:22] [I] | | The bind address for socket input.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | allowCustomClients: true
+[12-22-2022 09:23:22] [I] | | Whether custom clients are allowed to connect.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | whitelist: false
+[12-22-2022 09:23:22] [I] | | Whether the whitelist is used.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | motd: off
+[12-22-2022 09:23:22] [I] | | The message displayed to people on connection.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | autosave: false
+[12-22-2022 09:23:22] [I] | | Whether the periodically save the map when playing.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | autosaveAmount: 10
+[12-22-2022 09:23:22] [I] | | The maximum amount of autosaves. Older ones get replaced.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | autosaveSpacing: 300
+[12-22-2022 09:23:22] [I] | | Spacing between autosaves in seconds.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | debug: false
+[12-22-2022 09:23:22] [I] | | Enable debug logging.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | snapshotInterval: 200
+[12-22-2022 09:23:22] [I] | | Client entity snapshot interval in ms.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:22] [I] | autoPause: true
+[12-22-2022 09:23:22] [I] | | Whether the game should pause when nobody is online.
+[12-22-2022 09:23:22] [I] |
+[12-22-2022 09:23:28] [I] Status:
+[12-22-2022 09:23:28] [I]   Playing on map Molten Lake / Wave 61
+[12-22-2022 09:23:28] [I]   101 seconds until next wave.
+[12-22-2022 09:23:28] [I]   40 units / 18 enemies
+[12-22-2022 09:23:28] [I]   60 FPS, 407 MB used.
+[12-22-2022 09:23:28] [I]   No players connected.
+[12-22-2022 09:23:32] [E] Too few command arguments. Usage: save <slot>
+[12-22-2022 09:23:39] [E] Not hosting. Host a game first.
+[12-22-2022 22:45:23] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 22:45:38] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-22-2022 22:46:13] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 22:46:17] [I] Saved to config/saves/aaa.msav.
+[12-22-2022 22:47:00] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (disappeared)
+[12-22-2022 22:47:08] [I] Rancharoni has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-22-2022 22:47:10] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-22-2022 22:55:30] [I] bees has connected. [6HS5EyVT3tgAAAAAWRDH+A==]
+[12-22-2022 22:57:24] [I] bees has disconnected. [6HS5EyVT3tgAAAAAWRDH+A==] (closed)
+[12-22-2022 23:52:30] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 23:54:28] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 23:54:41] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 23:54:46] [I] death to all that don't have 8 legs: ;sco
+[12-22-2022 23:54:52] [I] <death to all that don't have 8 legs: /sync>
+[12-22-2022 23:55:51] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:01:42] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:08:09] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:11:39] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:11:53] [I] Game over! Reached wave 104 with 2 players online on map Molten Lake.
+[12-23-2022 00:11:53] [I] Selected next map to be Fortress.
+[12-23-2022 00:13:27] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[12-23-2022 00:14:26] [I] name set to "get in the web".
+[12-23-2022 00:15:50] [I] <death to all that don't have 8 legs: /help>
+[12-23-2022 00:16:39] [E] Second parameter must be either 'add' or 'remove'.
+[12-23-2022 00:16:56] [E] Nobody with that name or ID could be found. If adding an admin by name, make sure they're online; otherwise, use their UUID.
+[12-23-2022 00:17:12] [I] Changed admin status of player: death to all that don't have 8 legs
+[12-23-2022 00:17:16] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-23-2022 00:17:22] [I] <death to all that don't have 8 legs: /help>
+[12-23-2022 00:17:34] [I] <death to all that don't have 8 legs: /config>
+[12-23-2022 00:17:39] [I] <death to all that don't have 8 legs: /help>
+[12-23-2022 00:17:50] [I] thebees has connected. [6HS5EyVT3tgAAAAAWRDH+A==]
+[12-23-2022 00:18:55] [E] Command not found. Did you mean "pause"?
+[12-23-2022 00:18:57] [E] Too few command arguments. Usage: pause <on/off>
+[12-23-2022 00:19:00] [I] Game paused.
+[12-23-2022 00:19:08] [I] Game unpaused.
+[12-23-2022 00:20:26] [I] Rules:
+{
+reactorExplosions: false
+logicUnitBuild: false
+}
+[12-23-2022 00:21:21] [E] Command not found. Did you mean "rules"?
+[12-23-2022 00:21:39] [E] Invalid usage. Either add or remove rules.
+[12-23-2022 00:21:47] [I] Changed rule: waveTimer: true
+[12-23-2022 00:21:57] [I] Rule 'waveTimer' removed.
+[12-23-2022 00:22:04] [I] Changed rule: waveTimer: false
+[12-23-2022 00:23:02] [I] Changed rule: waveSending: true
+[12-23-2022 00:23:05] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-23-2022 00:23:37] [I] Changed rule: waitEnemies: false
+[12-23-2022 00:23:39] [I] Rules:
+{
+reactorExplosions: false
+logicUnitBuild: false
+waveTimer: false
+waveSending: true
+waitEnemies: false
+}
+[12-23-2022 00:23:56] [E] Command not found. Did you mean "rules"?
+[12-23-2022 00:24:03] [I] Rule 'waitEnemies' removed.
+[12-23-2022 00:24:12] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-23-2022 00:24:18] [I] thebees has disconnected. [6HS5EyVT3tgAAAAAWRDH+A==] (closed)
+[12-23-2022 00:24:42] [I] Commands:
+[12-23-2022 00:24:42] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-23-2022 00:24:42] [I]    version - Displays server version info.
+[12-23-2022 00:24:42] [I]    exit - Exit the server application.
+[12-23-2022 00:24:42] [I]    stop - Stop hosting the server.
+[12-23-2022 00:24:42] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-23-2022 00:24:42] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-23-2022 00:24:42] [I]    reloadmaps - Reload all maps from disk.
+[12-23-2022 00:24:42] [I]    status - Display server status.
+[12-23-2022 00:24:42] [I]    mods - Display all loaded mods.
+[12-23-2022 00:24:42] [I]    mod <name...> - Display information about a loaded plugin.
+[12-23-2022 00:24:42] [I]    js <script...> - Run arbitrary Javascript.
+[12-23-2022 00:24:42] [I]    say <message...> - Send a message to all players.
+[12-23-2022 00:24:42] [I]    pause <on/off> - Pause or unpause the game.
+[12-23-2022 00:24:42] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-23-2022 00:24:42] [I]    fillitems [team] - Fill the core with items.
+[12-23-2022 00:24:42] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-23-2022 00:24:42] [I]    config [name] [value...] - Configure server settings.
+[12-23-2022 00:24:42] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-23-2022 00:24:42] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-23-2022 00:24:42] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-23-2022 00:24:42] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-23-2022 00:24:42] [I]    kick <username...> - Kick a person by name.
+[12-23-2022 00:24:42] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-23-2022 00:24:42] [I]    bans - List all banned IPs and IDs.
+[12-23-2022 00:24:42] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-23-2022 00:24:42] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-23-2022 00:24:42] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-23-2022 00:24:42] [I]    admins - List all admins.
+[12-23-2022 00:24:42] [I]    players - List all players currently in game.
+[12-23-2022 00:24:42] [I]    runwave - Trigger the next wave.
+[12-23-2022 00:24:42] [I]    load <slot> - Load a save from a slot.
+[12-23-2022 00:24:42] [I]    save <slot> - Save game state to a slot.
+[12-23-2022 00:24:42] [I]    saves - List all saves in the save directory.
+[12-23-2022 00:24:42] [I]    gameover - Force a game over.
+[12-23-2022 00:24:42] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-23-2022 00:24:42] [I]    search <name...> - Search players who have used part of a name.
+[12-23-2022 00:24:42] [I]    gc - Trigger a garbage collection. Testing only.
+[12-23-2022 00:24:42] [I]    yes - Run the last suggested incorrect command.
+[12-23-2022 00:24:44] [I] thebees has connected. [6HS5EyVT3tgAAAAAWRDH+A==]
+[12-23-2022 00:24:51] [E] Command not found. Did you mean "nextmap"?
+[12-23-2022 00:24:53] [I] Next map set to 'Wasteland'.
+[12-23-2022 00:25:06] [I] Core destroyed.
+[12-23-2022 00:25:06] [I] Game over! Reached wave 6 with 3 players online on map Fortress.
+[12-23-2022 00:25:06] [I] Selected next map to be Wasteland.
+[12-23-2022 00:25:11] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-23-2022 00:27:25] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:30:37] [I] thebees has disconnected. [6HS5EyVT3tgAAAAAWRDH+A==] (closed)
+[12-23-2022 00:33:35] [I] <Rancharoni: /sync>
+[12-23-2022 00:33:48] [I] <Rancharoni: /sync>
+[12-23-2022 00:36:19] [I] <death to all that don't have 8 legs: /ysnc>
+[12-23-2022 00:36:25] [I] <death to all that don't have 8 legs: /yes>
+[12-23-2022 00:36:28] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 00:38:22] [I] <Rancharoni: /sync>
+[12-23-2022 01:33:06] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 02:06:38] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 03:37:21] [E] Invalid command. Type 'help' for help.
+[12-23-2022 03:37:29] [I] Save files: 
+[12-23-2022 03:37:29] [I] | aaa
+[12-23-2022 03:37:29] [I] | 12.21
+[12-23-2022 03:37:31] [I] Saved to config/saves/fancy.msav.
+[12-23-2022 03:37:53] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-23-2022 03:41:10] [I] spood.org has connected. [W9GOe/h4laEAAAAAfrV2/w==]
+[12-23-2022 03:41:29] [I] Next map set to 'Mud Flats'.
+[12-23-2022 03:41:31] [I] Core destroyed.
+[12-23-2022 03:41:31] [I] Game over! Reached wave 1 with 3 players online on map Wasteland.
+[12-23-2022 03:41:31] [I] Selected next map to be Mud Flats.
+[12-23-2022 03:41:42] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-23-2022 03:41:54] [I] spood.org has disconnected. [W9GOe/h4laEAAAAAfrV2/w==] (closed)
+[12-23-2022 03:42:13] [I] nie has connected. [W9GOe/h4laEAAAAAfrV2/w==]
+[12-23-2022 03:46:34] [I] LeahDa'Foxxo has connected. [/sq9qxeI1lQAAAAA34Flkg==]
+[12-23-2022 04:05:01] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 04:05:34] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 04:05:57] [I] <Rancharoni: /sync>
+[12-23-2022 04:06:15] [I] <Rancharoni: /sync>
+[12-23-2022 04:11:15] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 04:13:51] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (closed)
+[12-23-2022 04:29:59] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 04:57:59] [I] nie has disconnected. [W9GOe/h4laEAAAAAfrV2/w==] (closed)
+[12-23-2022 05:06:36] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 05:07:57] [I] <LeahDa'Foxxo: /sync>
+[12-23-2022 05:08:20] [I] <Rancharoni: /sync>
+[12-23-2022 05:18:06] [I] LeahDa'Foxxo has disconnected. [/sq9qxeI1lQAAAAA34Flkg==] (closed)
+[12-23-2022 05:28:50] [I] Rancharoni has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (closed)
+[12-23-2022 05:38:44] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-23-2022 07:35:46] [I] Status:
+[12-23-2022 07:35:46] [I]   Playing on map Mud Flats / Wave 1
+[12-23-2022 07:35:46] [I]   240 seconds until next wave.
+[12-23-2022 07:35:46] [I]   1 units / 0 enemies
+[12-23-2022 07:35:46] [I]   61 FPS, 706 MB used.
+[12-23-2022 07:35:46] [I]   No players connected.
+[12-23-2022 07:35:52] [I] Status:
+[12-23-2022 07:35:52] [I]   Playing on map Mud Flats / Wave 1
+[12-23-2022 07:35:52] [I]   240 seconds until next wave.
+[12-23-2022 07:35:52] [I]   1 units / 0 enemies
+[12-23-2022 07:35:52] [I]   61 FPS, 706 MB used.
+[12-23-2022 07:35:52] [I]   No players connected.
+[12-23-2022 20:51:31] [E] Not hosting. Host a game first.
+[12-23-2022 20:51:39] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-23-2022 20:51:41] [I] Saved to config/saves/tmp.msav.
+[12-23-2022 20:51:45] [I] Rancharoni has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-23-2022 20:51:48] [I] Save files: 
+[12-23-2022 20:51:48] [I] | fancy
+[12-23-2022 20:51:48] [I] | tmp
+[12-23-2022 20:51:48] [I] | aaa
+[12-23-2022 20:51:48] [I] | 12.21
+[12-23-2022 20:51:51] [E] Already hosting. Type 'stop' to stop hosting first.
+[12-23-2022 20:51:53] [I] Stopped server.
+[12-23-2022 20:51:57] [E] No map with name 'fancy' found.
+[12-23-2022 20:52:03] [I] Save loaded.
+[12-23-2022 20:52:03] [I] Opened a server on port 6567.
+[12-23-2022 20:52:09] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-23-2022 20:52:10] [I] Rancharoni has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-23-2022 21:08:17] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:23:34] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:24:06] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:24:14] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:25:53] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:26:41] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:27:33] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:28:19] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:29:46] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:30:40] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:30:45] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:34:03] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:34:46] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:43:13] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 21:49:09] [I] <death to all that don't have 8 legs: /sync>
+[12-23-2022 22:01:27] [I] <Rancharoni: /sync>
+[12-23-2022 22:01:49] [I] <Rancharoni: /sync>
+[12-23-2022 22:19:20] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-23-2022 22:28:56] [E] Too few command arguments. Usage: admin <add/remove> <username/ID...>
+[12-23-2022 22:29:00] [E] Nobody with that name or ID could be found. If adding an admin by name, make sure they're online; otherwise, use their UUID.
+[12-23-2022 22:29:05] [I] Changed admin status of player: Rancharoni
+[12-23-2022 22:29:11] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:31:14] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:31:26] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-23-2022 22:33:20] [I] allieee has connected. [xJZSvlFtB7UAAAAAPpMrWw==]
+[12-23-2022 22:35:45] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:36:18] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:37:42] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-23-2022 22:39:09] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:39:19] [I] allieee: nerd
+[12-23-2022 22:40:54] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:42:36] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:43:58] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:44:56] [I] allieee has disconnected. [xJZSvlFtB7UAAAAAPpMrWw==] (closed)
+[12-23-2022 22:45:06] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:45:25] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:46:19] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:46:40] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:47:05] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:48:53] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:49:14] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:50:49] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:51:08] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:51:27] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:52:10] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:52:34] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:52:53] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:53:12] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:53:35] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:55:09] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:55:53] [E] Too many command arguments. Usage: save <slot>
+[12-23-2022 22:55:57] [I] Saved to config/saves/hi_ranch.msav.
+[12-23-2022 22:56:02] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:56:17] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-23-2022 22:58:31] [I] Rancharoni has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (closed)
+[12-23-2022 22:58:43] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-24-2022 01:09:20] [I] Rancharoni has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-24-2022 01:09:51] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:10:51] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:11:08] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:12:05] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:12:45] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:20:59] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:25:29] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:27:18] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:32:53] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:33:17] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:34:16] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:37:06] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 01:37:24] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 05:17:02] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 05:23:32] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 05:27:23] [I] Rancharoni [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-24-2022 05:29:01] [I] LeahDa'Foxxo has connected. [/sq9qxeI1lQAAAAA34Flkg==]
+[12-24-2022 05:30:01] [I] LeahDa'Foxxo has disconnected. [/sq9qxeI1lQAAAAA34Flkg==] (closed)
+[12-24-2022 05:30:42] [I] Rancharoni has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (closed)
+[12-25-2022 04:17:03] [I] allie has connected. [kmxEa+1REPYAAAAAac3cSA==]
+[12-25-2022 04:17:18] [I] Saved to config/saves/temp.msav.
+[12-25-2022 04:17:29] [I] Core destroyed.
+[12-25-2022 04:17:29] [I] Game over! Reached wave 44 with 1 players online on map Wasteland.
+[12-25-2022 04:17:29] [I] Selected next map to be Ancient Caldera.
+[12-25-2022 04:17:32] [I] Violet has connected. [kfgJkRy4W54AAAAAhYo9gw==]
+[12-25-2022 04:17:35] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-25-2022 04:49:46] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 04:49:55] [I] <allie: /sync>
+[12-25-2022 04:49:59] [I] <Violet: /sync>
+[12-25-2022 04:57:02] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 05:25:06] [I] <Violet: /sync>
+[12-25-2022 05:30:04] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-25-2022 05:31:43] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-25-2022 05:35:55] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 05:48:04] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 05:51:33] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 06:33:41] [I] Violet has disconnected. [kfgJkRy4W54AAAAAhYo9gw==] (closed)
+[12-25-2022 06:53:12] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 07:14:28] [I] <allie: /help>
+[12-25-2022 07:14:46] [I] <allie: /t titties>
+[12-25-2022 07:42:49] [I] <allie: /sync>
+[12-25-2022 08:00:05] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 08:00:12] [I] <allie: /sync>
+[12-25-2022 08:22:39] [I] allie has disconnected. [kmxEa+1REPYAAAAAac3cSA==] (closed)
+[12-25-2022 08:42:12] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 09:13:11] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 09:14:30] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 09:17:24] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 09:24:37] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 09:43:14] [I] <death to all that don't have 8 legs: /sync>
+[12-25-2022 10:08:17] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-26-2022 07:09:55] [I] death to all that don't have 8 legs has connected. [xFWcNk+dH3EAAAAAcgLnVg==]
+[12-26-2022 07:11:08] [I] allie has connected. [kmxEa+1REPYAAAAAac3cSA==]
+[12-26-2022 07:22:28] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-26-2022 07:22:58] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-26-2022 07:43:17] [I] death to all that don't have 8 legs [xFWcNk+dH3EAAAAAcgLnVg==] has skipped the wave.
+[12-26-2022 09:14:39] [I] allie has disconnected. [kmxEa+1REPYAAAAAac3cSA==] (closed)
+[12-26-2022 09:24:57] [I] <death to all that don't have 8 legs: /sync>
+[12-26-2022 09:36:50] [I] Saved to config/saves/withAllie.msav.
+[12-26-2022 09:50:08] [I] death to all that don't have 8 legs has disconnected. [xFWcNk+dH3EAAAAAcgLnVg==] (closed)
+[12-27-2022 05:55:56] [E] Not hosting. Host a game first.
+[12-27-2022 05:57:31] [I] kenzie has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-27-2022 05:58:27] [I] Core destroyed.
+[12-27-2022 05:58:27] [I] Game over! Reached wave 4 with 1 players online on map Ancient Caldera.
+[12-27-2022 05:58:27] [I] Selected next map to be Domain.
+[12-27-2022 05:58:30] [I] Commands:
+[12-27-2022 05:58:30] [I]    help [command] - Display the command list, or get help for a specific command.
+[12-27-2022 05:58:30] [I]    version - Displays server version info.
+[12-27-2022 05:58:30] [I]    exit - Exit the server application.
+[12-27-2022 05:58:30] [I]    stop - Stop hosting the server.
+[12-27-2022 05:58:30] [I]    host [mapname] [mode] - Open the server. Will default to survival and a random map if not specified.
+[12-27-2022 05:58:30] [I]    maps [all/custom/default] - Display available maps. Displays only custom maps by default.
+[12-27-2022 05:58:30] [I]    reloadmaps - Reload all maps from disk.
+[12-27-2022 05:58:30] [I]    status - Display server status.
+[12-27-2022 05:58:30] [I]    mods - Display all loaded mods.
+[12-27-2022 05:58:30] [I]    mod <name...> - Display information about a loaded plugin.
+[12-27-2022 05:58:30] [I]    js <script...> - Run arbitrary Javascript.
+[12-27-2022 05:58:30] [I]    say <message...> - Send a message to all players.
+[12-27-2022 05:58:30] [I]    pause <on/off> - Pause or unpause the game.
+[12-27-2022 05:58:30] [I]    rules [remove/add] [name] [value...] - List, remove or add global rules. These will apply regardless of map.
+[12-27-2022 05:58:30] [I]    fillitems [team] - Fill the core with items.
+[12-27-2022 05:58:30] [I]    playerlimit [off/somenumber] - Set the server player limit.
+[12-27-2022 05:58:30] [I]    config [name] [value...] - Configure server settings.
+[12-27-2022 05:58:30] [I]    subnet-ban [add/remove] [address] - Ban a subnet. This simply rejects all connections with IPs starting with some string.
+[12-27-2022 05:58:30] [I]    whitelist [add/remove] [ID] - Add/remove players from the whitelist using their ID.
+[12-27-2022 05:58:30] [I]    shuffle [none/all/custom/builtin] - Set map shuffling mode.
+[12-27-2022 05:58:30] [I]    nextmap <mapname...> - Set the next map to be played after a game-over. Overrides shuffling.
+[12-27-2022 05:58:30] [I]    kick <username...> - Kick a person by name.
+[12-27-2022 05:58:30] [I]    ban <type-id/name/ip> <username/IP/ID...> - Ban a person.
+[12-27-2022 05:58:30] [I]    bans - List all banned IPs and IDs.
+[12-27-2022 05:58:30] [I]    unban <ip/ID> - Completely unban a person by IP or ID.
+[12-27-2022 05:58:30] [I]    pardon <ID> - Pardons a votekicked player by ID and allows them to join again.
+[12-27-2022 05:58:30] [I]    admin <add/remove> <username/ID...> - Make an online user admin
+[12-27-2022 05:58:30] [I]    admins - List all admins.
+[12-27-2022 05:58:30] [I]    players - List all players currently in game.
+[12-27-2022 05:58:30] [I]    runwave - Trigger the next wave.
+[12-27-2022 05:58:30] [I]    load <slot> - Load a save from a slot.
+[12-27-2022 05:58:30] [I]    save <slot> - Save game state to a slot.
+[12-27-2022 05:58:30] [I]    saves - List all saves in the save directory.
+[12-27-2022 05:58:30] [I]    gameover - Force a game over.
+[12-27-2022 05:58:30] [I]    info <IP/UUID/name...> - Find player info(s). Can optionally check for all names or IPs a player has had.
+[12-27-2022 05:58:30] [I]    search <name...> - Search players who have used part of a name.
+[12-27-2022 05:58:30] [I]    gc - Trigger a garbage collection. Testing only.
+[12-27-2022 05:58:30] [I]    yes - Run the last suggested incorrect command.
+[12-27-2022 05:58:48] [I] Server: hi rank
+[12-27-2022 05:58:56] [I] Server: :)
+[12-27-2022 05:59:08] [I] kenzie: wait i wanted the good map
+[12-27-2022 05:59:16] [I] Server: what map
+[12-27-2022 05:59:25] [I] kenzie: the old tech tree
+[12-27-2022 05:59:39] [I] Server: uh
+[12-27-2022 05:59:43] [I] Core destroyed.
+[12-27-2022 05:59:43] [I] Game over! Reached wave 1 with 1 players online on map Domain.
+[12-27-2022 05:59:43] [I] Selected next map to be Ancient Caldera.
+[12-27-2022 05:59:55] [I] Server: is this one better?
+[12-27-2022 06:00:05] [I] kenzie: yes
+[12-27-2022 06:00:08] [I] kenzie: thank you
+[12-27-2022 06:00:14] [I] Server: <3
+[12-27-2022 06:00:51] [I] Server: <admin has left>
+[12-27-2022 06:19:07] [I] Mack and Zach has connected. [EdqkQh0okUoAAAAAEEBhyQ==]
+[12-27-2022 06:52:35] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 06:59:15] [I] <kenzie: /SYNC>
+[12-27-2022 06:59:23] [I] <kenzie: /sync>
+[12-27-2022 07:20:34] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 07:20:46] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 07:20:57] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 07:21:08] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 07:21:50] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 07:45:43] [I] <kenzie: /sync>
+[12-27-2022 07:46:00] [I] <Mack and Zach: /sync>
+[12-27-2022 08:02:28] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:03:35] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:03:47] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:05:47] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:06:24] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:07:18] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:07:34] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:07:44] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:10:01] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:10:20] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:11:36] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-27-2022 08:40:03] [I] kenzie has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (closed)
+[12-27-2022 10:47:13] [I] Mack and Zach has disconnected. [EdqkQh0okUoAAAAAEEBhyQ==] (closed)
+[12-28-2022 04:07:07] [I] Mack and Zach has connected. [EdqkQh0okUoAAAAAEEBhyQ==]
+[12-28-2022 04:11:58] [I] kenzie has connected. [QaxQF3B4PbsAAAAA2dZcqw==]
+[12-28-2022 04:12:02] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:12:13] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:12:27] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:12:40] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:12:54] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:13:10] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:14:14] [I] Game over! Reached wave 24 with 2 players online on map Ancient Caldera.
+[12-28-2022 04:14:14] [I] Selected next map to be Tendrils.
+[12-28-2022 04:14:56] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:16:29] [I] Game over! Reached wave 2 with 2 players online on map Tendrils.
+[12-28-2022 04:16:29] [I] Selected next map to be Triad.
+[12-28-2022 04:17:05] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:18:28] [I] Game over! Reached wave 2 with 2 players online on map Triad.
+[12-28-2022 04:18:28] [I] Selected next map to be Fork.
+[12-28-2022 04:19:13] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:21:19] [I] Game over! Reached wave 2 with 2 players online on map Fork.
+[12-28-2022 04:21:19] [I] Selected next map to be Debris Field.
+[12-28-2022 04:22:01] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 04:23:15] [I] Game over! Reached wave 2 with 2 players online on map Debris Field.
+[12-28-2022 04:23:15] [I] Selected next map to be Mud Flats.
+[12-28-2022 06:08:18] [I] Mack and Zach has disconnected. [EdqkQh0okUoAAAAAEEBhyQ==] (closed)
+[12-28-2022 06:09:27] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:10:29] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:11:33] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:12:14] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:12:53] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:14:27] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:15:11] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:15:45] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:18:21] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:18:54] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:19:39] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:20:30] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:21:06] [I] kenzie [QaxQF3B4PbsAAAAA2dZcqw==] has skipped the wave.
+[12-28-2022 06:23:31] [I] kenzie has disconnected. [QaxQF3B4PbsAAAAA2dZcqw==] (closed)
+[01-11-2023 02:54:17] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-11-2023 04:37:37] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[01-11-2023 04:42:59] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-11-2023 04:43:19] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[01-12-2023 00:38:54] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-12-2023 01:23:55] [I] <dingus master: /sync>
+[01-12-2023 01:26:15] [I] <dingus master: /sync>
+[01-12-2023 01:40:21] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[01-12-2023 01:40:50] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-12-2023 03:39:42] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (disappeared)
+[01-12-2023 03:45:15] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-12-2023 03:52:52] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[01-12-2023 13:18:01] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
+[01-12-2023 13:20:00] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)

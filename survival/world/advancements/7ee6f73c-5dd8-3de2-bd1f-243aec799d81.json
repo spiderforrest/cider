@@ -1,0 +1,8 @@
+{
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2021-05-07 02:33:24 +0000"
+    },
+    "done": true
+  }
+}

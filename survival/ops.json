@@ -1,0 +1,32 @@
+[
+  {
+    "uuid": "7f00735e-ae3a-4a6a-a10e-25ea0ffbd7b5",
+    "name": "mindforrest",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ce5912d6-4fc8-46f7-836d-b6f2134bca61",
+    "name": "TransSpaceGirl",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "08d19546-085d-4d01-959a-97972cb90926",
+    "name": "naminom",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "63a40505-c3e1-44e1-a50a-77ea22dd6935",
+    "name": "SalmonSlammin",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "ab188e05-f34c-4066-b069-85fe341cd516",
+    "name": "SpearmintNya",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

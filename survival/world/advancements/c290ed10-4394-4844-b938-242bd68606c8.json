@@ -1,0 +1,21 @@
+{
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-04-20 01:38:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-04-20 01:38:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2020-07-21 20:22:37 +0000",
+      "jungle": "2021-05-18 20:54:21 +0000"
+    },
+    "done": false
+  }
+}

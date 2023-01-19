@@ -1,0 +1,36 @@
+{
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-12-07 21:54:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-08-22 05:26:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-12-04 00:32:56 +0000",
+      "swampland": "2020-11-21 20:55:39 +0000",
+      "birch_forest": "2021-04-19 22:42:31 +0000",
+      "beaches": "2021-04-19 22:42:30 +0000",
+      "extreme_hills_with_trees": "2020-12-04 00:28:03 +0000",
+      "plains": "2020-08-12 21:14:06 +0000",
+      "jungle_edge": "2020-12-04 00:27:37 +0000",
+      "taiga": "2020-08-02 18:12:18 +0000",
+      "extreme_hills": "2020-12-04 00:27:53 +0000",
+      "river": "2020-12-04 00:33:15 +0000",
+      "jungle": "2020-12-04 00:19:40 +0000"
+    },
+    "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-08-22 05:26:36 +0000"
+    },
+    "done": true
+  }
+}

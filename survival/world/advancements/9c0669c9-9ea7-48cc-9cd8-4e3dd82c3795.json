@@ -1,0 +1,65 @@
+{
+  "minecraft:recipes/misc/slime_ball": {
+    "criteria": {
+      "has_slime": "2020-08-13 05:52:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/rail": {
+    "criteria": {
+      "has_minecart": "2020-08-13 23:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/tnt_minecart": {
+    "criteria": {
+      "has_minecart": "2020-08-13 23:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/furnace_minecart": {
+    "criteria": {
+      "has_minecart": "2020-08-13 23:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/hopper_minecart": {
+    "criteria": {
+      "has_minecart": "2020-08-13 23:28:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2020-08-14 06:09:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-08-13 23:20:27 +0000",
+      "birch_forest": "2020-08-13 23:49:44 +0000",
+      "beaches": "2020-08-13 23:21:59 +0000",
+      "extreme_hills_with_trees": "2020-08-13 23:51:11 +0000",
+      "desert_hills": "2020-08-13 04:54:42 +0000",
+      "forest_hills": "2020-11-26 08:48:06 +0000",
+      "plains": "2020-08-13 04:52:29 +0000",
+      "jungle_hills": "2020-08-13 04:56:59 +0000",
+      "jungle_edge": "2020-08-13 04:56:39 +0000",
+      "savanna": "2020-08-13 23:13:13 +0000",
+      "ocean": "2020-08-13 23:22:16 +0000",
+      "extreme_hills": "2020-08-13 23:50:04 +0000",
+      "roofed_forest": "2020-08-13 23:55:08 +0000",
+      "river": "2020-08-13 04:54:04 +0000",
+      "jungle": "2020-08-13 04:57:56 +0000",
+      "desert": "2020-08-13 04:51:41 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/chest_minecart": {
+    "criteria": {
+      "has_minecart": "2020-08-13 23:28:00 +0000"
+    },
+    "done": true
+  }
+}

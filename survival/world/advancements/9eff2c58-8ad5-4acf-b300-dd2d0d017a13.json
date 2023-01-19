@@ -1,0 +1,15 @@
+{
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2021-04-20 00:17:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2021-01-02 05:52:34 +0000",
+      "extreme_hills": "2021-04-20 00:17:42 +0000"
+    },
+    "done": false
+  }
+}

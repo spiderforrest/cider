@@ -1,0 +1,14 @@
+{
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2020-08-13 01:31:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2020-08-13 01:31:50 +0000"
+    },
+    "done": true
+  }
+}

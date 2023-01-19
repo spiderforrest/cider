@@ -1,0 +1,20 @@
+{
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2021-05-17 07:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2021-05-17 07:19:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "jungle_edge": "2021-05-18 20:54:21 +0000"
+    },
+    "done": false
+  }
+}

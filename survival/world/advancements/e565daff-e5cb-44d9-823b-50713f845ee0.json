@@ -1,0 +1,8 @@
+{
+  "minecraft:recipes/misc/bone_meal_from_bone": {
+    "criteria": {
+      "has_bone": "2020-08-09 19:51:09 +0000"
+    },
+    "done": true
+  }
+}

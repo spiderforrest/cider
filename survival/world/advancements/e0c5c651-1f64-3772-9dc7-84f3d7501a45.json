@@ -1,0 +1,14 @@
+{
+  "minecraft:story/iron_tools": {
+    "criteria": {
+      "iron_pickaxe": "2020-07-15 07:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "savanna": "2020-07-15 07:05:10 +0000"
+    },
+    "done": false
+  }
+}
