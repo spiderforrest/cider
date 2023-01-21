@@ -30,9 +30,15 @@ if [[ -n "$1" ]] ; then
 	yadm push
 else
 	# otherwise generate it based off of changed files
-	echo "/// autogenerating commit message... ///"
+	echo "/// parsing autogenerating commit message... ///"
 	list=$(yadm status)
 	msg="Updated"
+	# aaaaaa pls no bad
+	if $(echo "$list" | grep -qm 1 ".jar|.zip") ; then
+		echo "/// hhhhh there's a jar or something in there nope ///"
+		touch /home/spider/AAA\ I\ AM\ SAVEALL\ DOT\ SH\ AND\ I\ AM\ SCARED
+		exit
+	fi
 	for target in "${targets[@]}"; do
 		if $(echo "$list" | grep -qm 1 "$target") ; then
 			# add to the commit message if the target's been updated
