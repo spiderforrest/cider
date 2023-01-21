@@ -840,3 +840,4 @@ waitEnemies: false
 [01-12-2023 03:52:52] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
 [01-12-2023 13:18:01] [I] dingus master has connected. [CRTJ7hnXDCQAAAAAfZ7aIA==]
 [01-12-2023 13:20:00] [I] dingus master has disconnected. [CRTJ7hnXDCQAAAAAfZ7aIA==] (timeout)
+[01-21-2023 01:38:56] [I] Server loaded. Type 'help' for help.

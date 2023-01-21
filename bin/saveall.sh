@@ -3,9 +3,13 @@
 # i should really be using gitignore but honestly i'm paranoid about either the size limit or pushing copyrighted shit cos yikes
 # so here's my janky whitelisting
 
+cd $HOME || exit
 # search for new files in dirs/subdirs
 targets=('survival' 'creative' 'mindustry')
 subtargets=('world' 'logs' 'crash-reports' 'carpet' 'config' 'luke')
+
+echo "/// adding explicit dirs ///"
+yadm add bin
 
 echo "/// fuck it, trying everything... ///"
 for target in "${targets[@]}" ; do
