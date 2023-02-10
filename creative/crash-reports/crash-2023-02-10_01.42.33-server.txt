@@ -1,0 +1,30 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 2/10/23 1:42 AM
+Description: Exception in server tick loop
+
+java.lang.ArrayIndexOutOfBoundsException: -48
+	at net.minecraft.server.MinecraftServer.D(MinecraftServer.java:916)
+	at nz.D(DedicatedServer.java:410)
+	at net.minecraft.server.MinecraftServer.C(MinecraftServer.java:753)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:563)
+	at java.lang.Thread.run(Thread.java:750)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.1.7-hardened1-1-hardened
+	Java Version: 1.8.0_362, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1409872664 bytes (1344 MB) / 2144862208 bytes (2045 MB) up to 2144862208 bytes (2045 MB)
+	JVM Flags: 2 total; -Xmx2048M -Xms2048M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 80085; []
+	Is Modded: Definitely; Server brand changed to 'carpetmod'
+	Type: Dedicated Server (map_server.txt)

@@ -44,6 +44,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "forest": "2022-05-12 21:10:11 +0000",
+      "swampland": "2023-01-30 16:48:03 +0000",
       "jungle": "2022-05-12 21:37:47 +0000"
     },
     "done": false
