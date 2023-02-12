@@ -1,1 +1,14 @@
-{}
+{
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2023-02-10 19:11:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2023-02-10 19:11:22 +0000"
+    },
+    "done": true
+  }
+}

@@ -1,54 +1,24 @@
-[02:15:27] [Server thread/INFO]: Starting minecraft server version 1.12.2
-[02:15:27] [Server thread/INFO]: Loading properties
-[02:15:27] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
-[02:15:27] [Server thread/INFO]: Default game type: SURVIVAL
-[02:15:27] [Server thread/INFO]: Generating keypair
-[02:15:28] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25566
-[02:15:28] [Server thread/INFO]: Using epoll channel type
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting displayMobAI as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting stackableEmptyShulkerBoxes as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting stackableShulkersPlayerInventory as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting antiCheatSpeed as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting pistonGhostBlocksFix as clientAndServer from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting relaxedBlockPlacement as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting simulatePermaloader as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting creativeNoClip as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting removeFakePlayerSkins as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting explosionNoBlockDamage as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting autoCraftingDropper as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting sendDuplicateEntitiesToClients as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting noteBlockImitationOf1.13 as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting fillLimit as 100000000 from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting structureBlockLimit as 1000 from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting chunkDebugTool as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting observersDoNonUpdate as true from carpet.conf
-[02:15:28] [Server thread/ERROR]: [CM]: The value of true for hopperCounters is not valid - ignoring...
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting watchdogFix as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting fillUpdates as false from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting flippinCactus as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting accurateBlockPlacement as true from carpet.conf
-[02:15:28] [Server thread/INFO]: [CM]: loaded setting TNTDoNotUpdate as true from carpet.conf
-[02:15:28] [Server thread/INFO]: Preparing level "world"
-[02:15:28] [Server thread/INFO]: Loaded 488 advancements
-[02:15:28] [Server thread/INFO]: Preparing start region for level 0
-[02:15:29] [Server thread/INFO]: Done (1.386s)! For help, type "help" or "?"
-[02:15:29] [Server thread/ERROR]: Couldn't load server icon
-java.lang.IllegalStateException: Must be 64 pixels wide
-	at org.apache.commons.lang3.Validate.validState(Validate.java:829) ~[carpet.jar:?]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:692) [carpet.jar:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:553) [carpet.jar:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_362]
-[02:15:43] [User Authenticator #1/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[02:15:43] [Server thread/INFO]: spidelini[/192.168.0.17:41664] logged in with entity id 325 at (6068.950878948138, 21.0, 7794.917765445109)
-[02:15:43] [Server thread/INFO]: spidelini joined the game
-[02:20:22] [Server thread/INFO]: spidelini lost connection: Disconnected
-[02:20:22] [Server thread/INFO]: spidelini left the game
-[16:57:04] [Server thread/INFO]: Stopping the server
-[16:57:04] [Server thread/INFO]: Stopping server
-[16:57:04] [Server thread/INFO]: Saving players
-[16:57:04] [Server thread/INFO]: Saving worlds
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[16:57:04] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[16:57:04] [Server Shutdown Thread/INFO]: Stopping server
-[16:57:04] [Server Shutdown Thread/INFO]: Saving players
+[05:33:03] [User Authenticator #14/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
+[05:33:03] [Server thread/INFO]: spidelini[/192.168.0.17:49230] logged in with entity id 46093 at (6047.254817953282, 13.046603292941061, 7968.786836835383)
+[05:33:03] [Server thread/INFO]: spidelini joined the game
+[05:34:05] [Server thread/INFO]: [Speed 3: Given Speed (ID 1) * 2 to spidelini for 100000 seconds]
+[05:35:14] [Server thread/INFO]: [spidelini: Game is paused]
+[05:35:31] [Server thread/INFO]: [spidelini: Game runs normally]
+[05:53:02] [Server thread/INFO]: spidelini lost connection: Disconnected
+[05:53:02] [Server thread/INFO]: spidelini left the game
+[05:53:05] [User Authenticator #15/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
+[05:53:05] [Server thread/INFO]: spidelini[/192.168.0.17:57924] logged in with entity id 49331 at (6053.992821238152, 21.936378665514102, 7959.6862428834775)
+[05:53:05] [Server thread/INFO]: spidelini joined the game
+[05:54:08] [Server thread/INFO]: spidelini lost connection: Disconnected
+[05:54:08] [Server thread/INFO]: spidelini left the game
+[18:39:42] [Server thread/INFO]: Stopping the server
+[18:39:42] [Server thread/INFO]: Stopping server
+[18:39:42] [Server thread/INFO]: Saving players
+[18:39:42] [Server thread/INFO]: Saving worlds
+[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[18:39:42] [Server Shutdown Thread/INFO]: Stopping server
+[18:39:42] [Server Shutdown Thread/INFO]: Saving players
+[18:39:42] [Server Shutdown Thread/INFO]: Saving worlds
+[18:39:42] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld

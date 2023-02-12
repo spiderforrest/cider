@@ -1,0 +1,40 @@
+---- Minecraft Crash Report ----
+// Shall we play a game?
+
+Time: 2/10/23 6:09 PM
+Description: Exception in server tick loop
+
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 2 column 1 path $
+	at rc.a(SourceFile:506)
+	at rc.a(SourceFile:522)
+	at pp.g(SourceFile:141)
+	at ny.A(SourceFile:99)
+	at ny.<init>(SourceFile:25)
+	at nz.j(SourceFile:191)
+	at net.minecraft.server.MinecraftServer.run(SourceFile:434)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.io.EOFException: End of input at line 2 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1393)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:549)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:74)
+	at com.google.gson.internal.bind.CollectionTypeAdapterFactory$Adapter.read(CollectionTypeAdapterFactory.java:61)
+	at rc.a(SourceFile:504)
+	... 7 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.1.7-hardened1-1-hardened
+	Java Version: 1.8.0_362, Oracle Corporation
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1934984112 bytes (1845 MB) / 2058354688 bytes (1963 MB) up to 2058354688 bytes (1963 MB)
+	JVM Flags: 3 total; -Xmx2048M -Xms2048M -Xss512M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	Profiler Position: N/A (disabled)
+	Is Modded: Unknown (can't tell)
+	Type: Dedicated Server (map_server.txt)
