@@ -1,24 +1,11 @@
-[05:33:03] [User Authenticator #14/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[05:33:03] [Server thread/INFO]: spidelini[/192.168.0.17:49230] logged in with entity id 46093 at (6047.254817953282, 13.046603292941061, 7968.786836835383)
-[05:33:03] [Server thread/INFO]: spidelini joined the game
-[05:34:05] [Server thread/INFO]: [Speed 3: Given Speed (ID 1) * 2 to spidelini for 100000 seconds]
-[05:35:14] [Server thread/INFO]: [spidelini: Game is paused]
-[05:35:31] [Server thread/INFO]: [spidelini: Game runs normally]
-[05:53:02] [Server thread/INFO]: spidelini lost connection: Disconnected
-[05:53:02] [Server thread/INFO]: spidelini left the game
-[05:53:05] [User Authenticator #15/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[05:53:05] [Server thread/INFO]: spidelini[/192.168.0.17:57924] logged in with entity id 49331 at (6053.992821238152, 21.936378665514102, 7959.6862428834775)
-[05:53:05] [Server thread/INFO]: spidelini joined the game
-[05:54:08] [Server thread/INFO]: spidelini lost connection: Disconnected
-[05:54:08] [Server thread/INFO]: spidelini left the game
-[18:39:42] [Server thread/INFO]: Stopping the server
-[18:39:42] [Server thread/INFO]: Stopping server
-[18:39:42] [Server thread/INFO]: Saving players
-[18:39:42] [Server thread/INFO]: Saving worlds
-[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[18:39:42] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[18:39:42] [Server Shutdown Thread/INFO]: Stopping server
-[18:39:42] [Server Shutdown Thread/INFO]: Saving players
-[18:39:42] [Server Shutdown Thread/INFO]: Saving worlds
-[18:39:42] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
+[03:11:47] [Server thread/INFO]: Stopping the server
+[03:11:48] [Server thread/INFO]: Stopping server
+[03:11:48] [Server thread/INFO]: Saving players
+[03:11:48] [Server thread/INFO]: Saving worlds
+[03:11:48] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[03:11:48] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[03:11:48] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[03:11:48] [Server Shutdown Thread/INFO]: Stopping server
+[03:11:48] [Server Shutdown Thread/INFO]: Saving players
+[03:11:48] [Server Shutdown Thread/INFO]: Saving worlds
+[03:11:48] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
