@@ -32,7 +32,7 @@ else
 	# otherwise generate it based off of changed files
 	echo "/// parsing autogenerating commit message... ///"
 	list=$(yadm status)
-	msg="Updated"
+	msg="Backed up"
 	# aaaaaa pls no bad
 	if $(echo "$list" | grep -qm 1 ".jar|.zip") ; then
 		echo "/// hhhhh there's a jar or something in there nope ///"
