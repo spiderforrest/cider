@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "swampland": "2023-02-21 03:19:54 +0000",
+      "ocean": "2023-02-21 19:12:29 +0000",
+      "river": "2023-02-21 19:11:14 +0000"
+    },
+    "done": false
+  }
+}
