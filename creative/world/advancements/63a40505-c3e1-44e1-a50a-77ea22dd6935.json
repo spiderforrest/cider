@@ -311,6 +311,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/summon_iron_golem": {
+    "criteria": {
+      "summoned_golem": "2023-03-15 02:42:35 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/orange_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-12-05 04:29:58 +0000"
@@ -673,6 +679,8 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "wither_skeleton": "2023-03-15 03:01:46 +0000",
+      "magma_cube": "2023-03-15 03:29:26 +0000",
       "blaze": "2020-12-17 00:42:07 +0000",
       "cave_spider": "2020-12-17 00:42:15 +0000"
     },

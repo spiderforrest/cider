@@ -1,1 +1,26 @@
-[04:59:19] [Server Shutdown Thread/INFO]: Stopping server
+[00:22:48] [User Authenticator #39/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
+[00:22:48] [Server thread/INFO]: spidelini[/192.168.0.18:43494] logged in with entity id 70409 at (755.6999999880791, 168.0, 1361.6306702193253)
+[00:22:48] [Server thread/INFO]: spidelini joined the game
+[00:23:26] [Server thread/INFO]: spidelini lost connection: Disconnected
+[00:23:26] [Server thread/INFO]: spidelini left the game
+[00:24:22] [Server thread/INFO]: Unknown command. Try /help for a list of commands
+[00:24:25] [Server thread/INFO]: --- Showing help page 1 of 16 (/help <page>) ---
+[00:24:25] [Server thread/INFO]: /advancement <grant|revoke|test> <player>
+[00:24:25] [Server thread/INFO]: Usage: autosave info | autosave detect <range-start> <range-end> <quiet t| run <command>>
+[00:24:25] [Server thread/INFO]: /ban <name> [reason ...]
+[00:24:25] [Server thread/INFO]: /ban-ip <address|name> [reason ...]
+[00:24:25] [Server thread/INFO]: /banlist [ips|players]
+[00:24:25] [Server thread/INFO]: /blockdata <x> <y> <z> <dataTag>
+[00:24:25] [Server thread/INFO]: Usage: blockinfo <X> <Y> <Z>
+[00:24:25] [Server thread/INFO]: Tip: Use the <tab> key while typing a command to auto-complete the command or its arguments
+[00:24:27] [Server thread/INFO]: Stopping the server
+[00:24:27] [Server thread/INFO]: Stopping server
+[00:24:27] [Server thread/INFO]: Saving players
+[00:24:27] [Server thread/INFO]: Saving worlds
+[00:24:27] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[00:24:27] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[00:24:27] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[00:24:27] [Server Shutdown Thread/INFO]: Stopping server
+[00:24:27] [Server Shutdown Thread/INFO]: Saving players
+[00:24:27] [Server Shutdown Thread/INFO]: Saving worlds
+[00:24:27] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
