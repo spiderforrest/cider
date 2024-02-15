@@ -6,7 +6,6 @@
 cd $HOME || exit
 # search for new files in dirs/subdirs
 targets=('survival' 'creative' 'mindustry')
-targets=('creative' 'mindustry')
 subtargets=('world' 'logs' 'crash-reports' 'carpet' 'config' 'luke')
 
 echo "/// adding explicit dirs ///"
