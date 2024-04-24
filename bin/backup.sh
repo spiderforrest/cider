@@ -5,8 +5,8 @@
 
 cd $HOME || exit
 # search for new files in dirs/subdirs
-targets=('survival' 'creative' 'mindustry')
-subtargets=('world' 'logs' 'crash-reports' 'carpet' 'config' 'luke')
+targets=('survival' 'creative' 'mindustry' 'ranch')
+subtargets=('world' 'survival' 'logs' 'crash-reports' 'carpet' 'config' 'luke')
 
 echo "/// adding explicit dirs ///"
 yadm add bin

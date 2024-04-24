@@ -1,0 +1,99 @@
+---- Minecraft Crash Report ----
+// Daisy, daisy...
+
+Time: 4/11/24, 4:20 AM
+Description: Ticking entity
+
+java.lang.NullPointerException: Cannot invoke "java.lang.StackTraceElement.getFileName()" because "e" is null
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.asString(CarpetClientChunkLogger.java:232)
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.internStackTrace(CarpetClientChunkLogger.java:214)
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.access$200(CarpetClientChunkLogger.java:192)
+	at carpet.carpetclient.CarpetClientChunkLogger.log(CarpetClientChunkLogger.java:88)
+	at on.a(ChunkProviderServer.java:115)
+	at on.b(ChunkProviderServer.java:127)
+	at on.c(ChunkProviderServer.java:163)
+	at amu.a(World.java:361)
+	at amu.a(World.java:3032)
+	at amu.b(World.java:3012)
+	at afe.B_(EntityMinecart.java:415)
+	at amu.a(World.java:1979)
+	at oo.a(WorldServer.java:1061)
+	at amu.h(World.java:1939)
+	at amu.k(World.java:1742)
+	at oo.k(WorldServer.java:819)
+	at net.minecraft.server.MinecraftServer.D(MinecraftServer.java:890)
+	at nz.D(DedicatedServer.java:410)
+	at net.minecraft.server.MinecraftServer.C(MinecraftServer.java:753)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.asString(CarpetClientChunkLogger.java:232)
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.internStackTrace(CarpetClientChunkLogger.java:214)
+	at carpet.carpetclient.CarpetClientChunkLogger$StackTraces.access$200(CarpetClientChunkLogger.java:192)
+	at carpet.carpetclient.CarpetClientChunkLogger.log(CarpetClientChunkLogger.java:88)
+	at on.a(ChunkProviderServer.java:115)
+	at on.b(ChunkProviderServer.java:127)
+	at on.c(ChunkProviderServer.java:163)
+	at amu.a(World.java:361)
+	at amu.a(World.java:3032)
+	at amu.b(World.java:3012)
+	at afe.B_(EntityMinecart.java:415)
+	at amu.a(World.java:1979)
+	at oo.a(WorldServer.java:1061)
+	at amu.h(World.java:1939)
+
+-- Entity being ticked --
+Details:
+	Entity Type: minecraft:minecart (afk)
+	Entity ID: 166
+	Entity Name: entity.MinecartRideable.name
+	Entity's Exact location: 121.50, 1.00, 383.49
+	Entity's Block location: World: (121,1,383), Chunk: (at 9,0,15 in 7,23; contains blocks 112,0,368 to 127,255,383), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Entity's Momentum: 0.00, 0.00, 0.00
+	Entity's Passengers: [adi['Shulker'/167, l='world', x=121.50, y=1.00, z=383.49]]
+	Entity's Vehicle: ~~ERROR~~ NullPointerException: Cannot invoke "vg.toString()" because the return value of "vg.bJ()" is null
+Stacktrace:
+	at amu.k(World.java:1742)
+	at oo.k(WorldServer.java:819)
+
+-- Affected level --
+Details:
+	Level name: world
+	All players: 0 total; []
+	Chunk stats: ServerChunkCache: 625 Drop: 216
+	Level seed: 993341264803355292
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (236,64,256), Chunk: (at 12,4,0 in 14,16; contains blocks 224,0,256 to 239,255,271), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)
+	Level time: 765495784 game time, 753961598 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 5465 (now: false), thunder time: 12951 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.D(MinecraftServer.java:890)
+	at nz.D(DedicatedServer.java:410)
+	at net.minecraft.server.MinecraftServer.C(MinecraftServer.java:753)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:606)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Linux (amd64) version 6.1.29-hardened1-1-hardened
+	Java Version: 20.0.1, N/A
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Oracle Corporation
+	Memory: 1007689904 bytes (961 MB) / 2147483648 bytes (2048 MB) up to 2147483648 bytes (2048 MB)
+	JVM Flags: 2 total; -Xmx2048M -Xms2048M
+	IntCache: cache: 0, tcache: 0, allocated: 12, tallocated: 94
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 100; []
+	Is Modded: Definitely; Server brand changed to 'carpetmod'
+	Type: Dedicated Server (map_server.txt)

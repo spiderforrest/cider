@@ -1,8 +1,1 @@
-[02:49:18] [Server thread/INFO]: Stopping the server
-[02:49:18] [Server thread/INFO]: Stopping server
-[02:49:18] [Server thread/INFO]: Saving players
-[02:49:18] [Server thread/INFO]: Saving worlds
-[02:49:18] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[02:49:18] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[02:49:18] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[02:49:18] [Server Shutdown Thread/INFO]: Stopping server
+[04:12:19] [Server Shutdown Thread/INFO]: Stopping server
