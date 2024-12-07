@@ -4,5 +4,17 @@
       "has_lots_of_items": "2020-07-28 21:22:51 +0000"
     },
     "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2024-12-05 21:17:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2024-12-05 21:17:40 +0000"
+    },
+    "done": true
   }
 }

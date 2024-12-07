@@ -266,6 +266,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "mutton": "2022-06-06 09:21:45 +0000",
+      "cookie": "2024-11-29 09:52:24 +0000",
+      "cooked_chicken": "2024-11-29 09:50:39 +0000",
       "enchanted_golden_apple": "2022-06-06 09:03:34 +0000"
     },
     "done": false
