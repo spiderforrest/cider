@@ -1,25 +1,5 @@
-[00:52:48] [User Authenticator #101/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[00:52:48] [Server thread/INFO]: spidelini[/192.168.0.18:40190] logged in with entity id 132449 at (757.0829298094324, 15.879856559814261, 1592.7660356360816)
-[00:52:48] [Server thread/INFO]: spidelini joined the game
-[01:31:59] [Server thread/INFO]: [spidelini: Teleported spidelini to 775.8011294408687, 9.0, 1652.5008827764525]
-[01:56:55] [Server thread/INFO]: [spidelini: Teleported spidelini to 775.3442684355174, 9.0, 1661.4331900385812]
-[02:22:39] [Server thread/INFO]: spidelini lost connection: Disconnected
-[02:22:39] [Server thread/INFO]: spidelini left the game
-[19:53:59] [User Authenticator #102/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[19:54:00] [Server thread/INFO]: spidelini[/192.168.0.18:47810] logged in with entity id 132499 at (773.8589483502344, 10.0, 1652.0172240279385)
-[19:54:00] [Server thread/INFO]: spidelini joined the game
-[19:54:04] [Server thread/INFO]: spidelini lost connection: Disconnected
-[19:54:04] [Server thread/INFO]: spidelini left the game
-[22:56:21] [Server thread/INFO]: Stopping the server
-[22:56:21] [Server thread/INFO]: Stopping server
-[22:56:21] [Server thread/INFO]: Saving players
-[22:56:21] [Server thread/INFO]: Saving worlds
-[22:56:21] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[22:56:21] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[22:56:21] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[22:56:21] [Server Shutdown Thread/INFO]: Stopping server
-[22:56:21] [Server Shutdown Thread/INFO]: Saving players
-[22:56:21] [Server Shutdown Thread/INFO]: Saving worlds
-[22:56:21] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/overworld
-[22:56:21] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_nether
-[22:56:21] [Server Shutdown Thread/INFO]: Saving chunks for level 'world'/the_end
+[23:04:28] [User Authenticator #45/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
+[23:04:28] [Server thread/INFO]: spidelini[/192.168.0.18:41826] logged in with entity id 270755 at (-702.3408114712877, 256.0, 1691.4949418274045)
+[23:04:28] [Server thread/INFO]: spidelini joined the game
+[23:04:34] [Server thread/INFO]: spidelini lost connection: Disconnected
+[23:04:34] [Server thread/INFO]: spidelini left the game

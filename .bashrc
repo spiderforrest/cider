@@ -153,8 +153,8 @@ alias why_would_you_do_this_dude_why='xclip -o | shuf'
 cfg() { nvim "$HOME/.config/synced/$1"; }
 alias :q="exit" # ...
 
-alias sconsole='screen -rS survival'
-alias cconsole='screen -rS creative'
+alias sconsole='TERM=xterm screen -rS survival'
+alias cconsole='TERM=xterm screen -rS creative'
 
 # fixes/improvements
 alias sl='sl -la'

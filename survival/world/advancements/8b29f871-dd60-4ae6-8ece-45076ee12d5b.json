@@ -1,0 +1,9 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-12-08 02:50:39 +0000",
+      "desert": "2024-12-08 03:04:55 +0000"
+    },
+    "done": false
+  }
+}
