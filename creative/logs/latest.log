@@ -1,5 +1,6 @@
-[23:04:28] [User Authenticator #45/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
-[23:04:28] [Server thread/INFO]: spidelini[/192.168.0.18:41826] logged in with entity id 270755 at (-702.3408114712877, 256.0, 1691.4949418274045)
-[23:04:28] [Server thread/INFO]: spidelini joined the game
-[23:04:34] [Server thread/INFO]: spidelini lost connection: Disconnected
-[23:04:34] [Server thread/INFO]: spidelini left the game
+[22:52:12] [Server thread/INFO]: /198.54.134.173:58964 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[22:52:12] [Server thread/INFO]: /198.54.134.173:58968 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[22:52:13] [Server thread/INFO]: /198.54.134.173:58980 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[23:47:48] [Server thread/INFO]: /198.54.134.173:60494 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[23:47:48] [Server thread/INFO]: /198.54.134.173:60510 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[23:47:49] [Server thread/INFO]: /198.54.134.173:60522 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
