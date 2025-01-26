@@ -1,6 +1,21 @@
-[22:52:12] [Server thread/INFO]: /198.54.134.173:58964 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
-[22:52:12] [Server thread/INFO]: /198.54.134.173:58968 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
-[22:52:13] [Server thread/INFO]: /198.54.134.173:58980 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
-[23:47:48] [Server thread/INFO]: /198.54.134.173:60494 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
-[23:47:48] [Server thread/INFO]: /198.54.134.173:60510 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
-[23:47:49] [Server thread/INFO]: /198.54.134.173:60522 lost connection: Internal Exception: io.netty.handler.codec.DecoderException: java.io.IOException: Packet 2/0 (mm) was larger than I expected, found 16 bytes extra whilst reading packet 0
+[13:40:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@6d70ebd2[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.130:36369) lost connection: Disconnected
+[13:41:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@73720261[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.130:36369) lost connection: Disconnected
+[13:41:32] [Server thread/INFO]: com.mojang.authlib.GameProfile@68b5ba4b[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.130:36369) lost connection: Disconnected
+[13:43:50] [Server thread/INFO]: com.mojang.authlib.GameProfile@271e2f4[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.130:36369) lost connection: Disconnected
+[13:44:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@3cef165e[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.130:36369) lost connection: Disconnected
+[13:56:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@5fed6aa8[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:00:28] [Server thread/INFO]: com.mojang.authlib.GameProfile@1a4ff4fc[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:01:19] [Server thread/INFO]: com.mojang.authlib.GameProfile@1724d303[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:01:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@53bd6a5f[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:02:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@67b1e2aa[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:02:33] [Server thread/INFO]: com.mojang.authlib.GameProfile@23c12b4[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:03:00] [Server thread/INFO]: com.mojang.authlib.GameProfile@33b1653b[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:03:41] [Server thread/INFO]: com.mojang.authlib.GameProfile@b661e80[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:04:03] [Server thread/INFO]: com.mojang.authlib.GameProfile@632a09f4[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:05:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@1610e97[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:09:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@39412b3d[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:09:48] [Server thread/INFO]: com.mojang.authlib.GameProfile@2e8b08b[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:10:05] [Server thread/INFO]: com.mojang.authlib.GameProfile@313e6c8b[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:11:18] [Server thread/INFO]: com.mojang.authlib.GameProfile@3822c98d[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:11:34] [Server thread/INFO]: com.mojang.authlib.GameProfile@88a1577[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected
+[14:12:01] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f218005[id=<null>,name=dsc_gg_cynxcorp,properties={},legacy=false] (/23.97.62.112:1537) lost connection: Disconnected

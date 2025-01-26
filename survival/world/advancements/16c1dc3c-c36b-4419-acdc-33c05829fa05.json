@@ -1,7 +1,8 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "ocean": "2024-12-21 22:57:57 +0000"
+      "ocean": "2024-12-21 22:57:57 +0000",
+      "jungle": "2025-01-21 01:09:27 +0000"
     },
     "done": false
   }
