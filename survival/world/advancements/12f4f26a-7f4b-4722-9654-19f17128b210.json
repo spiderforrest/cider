@@ -5,6 +5,12 @@
     },
     "done": true
   },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2025-06-16 01:09:20 +0000"
+    },
+    "done": true
+  },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-03-03 01:35:09 +0000"
@@ -16,5 +22,11 @@
       "river": "2023-02-23 04:11:51 +0000"
     },
     "done": false
+  },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2025-06-16 01:09:20 +0000"
+    },
+    "done": true
   }
 }

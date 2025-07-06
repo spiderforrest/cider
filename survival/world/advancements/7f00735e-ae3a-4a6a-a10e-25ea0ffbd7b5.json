@@ -651,10 +651,13 @@
     "criteria": {
       "zombie_pigman": "2020-11-25 06:57:22 +0000",
       "shulker": "2021-03-02 04:38:32 +0000",
+      "zombie_villager": "2025-06-19 23:25:31 +0000",
       "magma_cube": "2020-11-27 07:09:39 +0000",
       "skeleton": "2020-08-15 05:43:21 +0000",
       "husk": "2020-08-15 06:53:10 +0000",
       "zombie": "2020-08-17 03:38:57 +0000",
+      "witch": "2025-06-19 23:25:09 +0000",
+      "spider": "2025-06-19 21:13:19 +0000",
       "creeper": "2020-08-17 03:53:03 +0000",
       "enderman": "2020-08-17 03:30:49 +0000"
     },
@@ -825,6 +828,12 @@
   "minecraft:recipes/decorations/light_blue_stained_glass_pane": {
     "criteria": {
       "has_glass": "2020-11-27 07:02:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/create_beacon": {
+    "criteria": {
+      "beacon": "2025-06-15 03:19:13 +0000"
     },
     "done": true
   },
@@ -1274,6 +1283,12 @@
     },
     "done": true
   },
+  "minecraft:husbandry/plant_seed": {
+    "criteria": {
+      "wheat": "2025-06-15 01:22:07 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_boots": {
     "criteria": {
       "has_leather": "2020-08-12 06:00:41 +0000"
@@ -1319,6 +1334,12 @@
   "minecraft:recipes/decorations/brown_carpet": {
     "criteria": {
       "has_the_recipe": "2023-02-07 20:37:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2025-06-14 06:12:44 +0000"
     },
     "done": true
   },
@@ -1714,6 +1735,9 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "apple": "2025-06-24 03:54:39 +0000",
+      "potato": "2025-06-26 20:58:47 +0000",
+      "melon": "2025-06-16 00:14:20 +0000",
       "golden_carrot": "2020-11-27 02:01:58 +0000",
       "carrot": "2020-08-17 03:29:29 +0000"
     },
@@ -1728,6 +1752,12 @@
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2020-08-10 20:01:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/fast_travel": {
+    "criteria": {
+      "travelled": "2025-05-13 04:06:35 +0000"
     },
     "done": true
   },
@@ -1826,6 +1856,12 @@
       "has_sand": "2020-08-10 19:52:56 +0000"
     },
     "done": true
+  },
+  "minecraft:husbandry/bred_all_animals": {
+    "criteria": {
+      "bred_cow": "2025-06-26 20:36:31 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/orange_bed_from_white_bed": {
     "criteria": {
@@ -2064,6 +2100,12 @@
   "minecraft:recipes/decorations/green_bed_from_white_bed": {
     "criteria": {
       "has_bed": "2021-02-23 07:47:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/trade": {
+    "criteria": {
+      "traded": "2025-06-24 20:28:31 +0000"
     },
     "done": true
   },
@@ -2652,6 +2694,12 @@
   "minecraft:recipes/redstone/jungle_fence_gate": {
     "criteria": {
       "has_the_recipe": "2023-02-07 20:37:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/breed_an_animal": {
+    "criteria": {
+      "bred_cow": "2025-06-26 20:36:31 +0000"
     },
     "done": true
   },

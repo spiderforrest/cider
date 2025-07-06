@@ -2,6 +2,8 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "swampland": "2024-12-21 22:57:42 +0000",
+      "desert_hills": "2025-02-03 11:39:53 +0000",
+      "plains": "2025-02-03 11:45:17 +0000",
       "jungle": "2024-12-20 22:15:59 +0000"
     },
     "done": false

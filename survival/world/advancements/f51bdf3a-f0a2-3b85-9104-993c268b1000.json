@@ -1,0 +1,13 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "desert_hills": "2025-02-03 13:07:10 +0000",
+      "plains": "2025-02-04 07:47:45 +0000",
+      "extreme_hills": "2025-02-04 07:21:10 +0000",
+      "roofed_forest": "2025-02-04 07:40:05 +0000",
+      "jungle": "2025-02-04 07:10:48 +0000",
+      "desert": "2025-02-03 12:29:34 +0000"
+    },
+    "done": false
+  }
+}

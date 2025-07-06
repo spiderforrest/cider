@@ -1,7 +1,9 @@
 {
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "forest": "2024-12-20 22:15:45 +0000"
+      "forest": "2024-12-20 22:15:45 +0000",
+      "plains": "2025-02-03 11:39:49 +0000",
+      "roofed_forest": "2025-02-03 11:45:09 +0000"
     },
     "done": false
   }
