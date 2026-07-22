@@ -1,8 +1,120 @@
-[00:05:43] [Server thread/INFO]: Stopping the server
-[00:05:43] [Server thread/INFO]: Stopping server
-[00:05:43] [Server thread/INFO]: Saving players
-[00:05:43] [Server thread/INFO]: Saving worlds
-[00:05:43] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[00:05:43] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
-[00:05:43] [Server thread/INFO]: Saving chunks for level 'world'/the_end
-[00:05:43] [Server Shutdown Thread/INFO]: Stopping server
+[03:52:04] [Server thread/INFO]: Loading properties
+[03:52:04] [Server thread/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[03:52:04] [Server thread/INFO]: Default game type: SURVIVAL
+[03:52:04] [Server thread/INFO]: Generating keypair
+[03:52:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:7376
+[03:52:04] [Server thread/INFO]: Using epoll channel type
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting displayMobAI as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting stackableEmptyShulkerBoxes as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting stackableShulkersPlayerInventory as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting antiCheatSpeed as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting pistonGhostBlocksFix as clientAndServer from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting relaxedBlockPlacement as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting simulatePermaloader as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting creativeNoClip as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting removeFakePlayerSkins as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting explosionNoBlockDamage as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting autoCraftingDropper as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting sendDuplicateEntitiesToClients as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting carefulBreak as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting noteBlockImitationOf1.13 as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting fillLimit as 100000000 from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting structureBlockLimit as 1000 from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting chunkDebugTool as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting observersDoNonUpdate as true from carpet.conf
+[03:52:05] [Server thread/ERROR]: [CM]: The value of true for hopperCounters is not valid - ignoring...
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting watchdogFix as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting fillUpdates as false from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting flippinCactus as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting accurateBlockPlacement as true from carpet.conf
+[03:52:05] [Server thread/INFO]: [CM]: loaded setting TNTDoNotUpdate as true from carpet.conf
+[03:52:05] [Server thread/INFO]: Preparing level "world"
+[03:52:05] [Server thread/INFO]: Loaded 488 advancements
+[03:52:05] [Server thread/INFO]: Preparing start region for level 0
+[03:52:06] [Server thread/INFO]: Done (1.527s)! For help, type "help" or "?"
+[03:52:06] [Server thread/ERROR]: Couldn't load server icon
+java.lang.IllegalStateException: Must be 64 pixels wide
+	at org.apache.commons.lang3.Validate.validState(Validate.java:829) ~[carpet.jar:?]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:692) [carpet.jar:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:553) [carpet.jar:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_452]
+[03:52:44] [User Authenticator #1/INFO]: UUID of player spidelini is 08d19546-085d-4d01-959a-97972cb90926
+[03:52:44] [Server thread/INFO]: spidelini[/192.168.1.49:44600] logged in with entity id 325 at (3997.774076267835, 13.0, 11974.345926724905)
+[03:52:44] [Server thread/INFO]: spidelini joined the game
+[03:53:04] [Server thread/INFO]: spidelini fell out of the world
+[03:53:04] [Server thread/INFO]: [spidelini: Killed spidelini]
+[03:54:38] [Server thread/INFO]: [@: Teleported spidelini to 1016.5, 148.0, 1489.5]
+[03:55:51] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[03:56:39] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[03:56:41] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[03:56:52] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[03:57:26] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[03:57:44] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[03:57:45] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[03:57:47] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[03:58:07] [Server thread/INFO]: [@: Teleported spidelini to 1016.5, 148.0, 1489.5]
+[03:58:17] [Server thread/INFO]: [@: Teleported spidelini to 1333.5, 95.0, 1386.5]
+[03:59:04] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[03:59:05] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[03:59:13] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[03:59:23] [Server thread/INFO]: [spidelini: Teleported spidelini to 1202.778459103962, 166.125, 1399.6578133793225]
+[03:59:35] [Server thread/INFO]: [spidelini: Teleported spidelini to 1203.1394799676425, 167.0, 1405.3927745351577]
+[04:00:01] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:01:05] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:01:47] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:02:30] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:04:25] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:04:26] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:04:54] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:05:11] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:05:18] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:05:55] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:06:55] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:07:15] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:07:15] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID bf0f7da9-6b5b-4c3e-91bb-b2a7662e579c
+[04:07:22] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:07:37] [Server thread/WARN]: Keeping entity minecraft:rabbit that already exists with UUID f094a666-47e7-4a88-80eb-25ebbb2558d7
+[04:07:37] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:07:48] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:08:05] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:08:09] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:08:24] [Server thread/INFO]: [spidelini: Object successfully summoned]
+[04:08:31] [Server thread/INFO]: [spidelini: Object successfully summoned]
+[04:08:45] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:08:46] [Server thread/INFO]: [spidelini: ]
+[04:08:46] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:08:46] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:08:46] [Server thread/INFO]: [spidelini:  - Age: 49"]
+[04:08:52] [Server thread/INFO]: [spidelini: ]
+[04:08:52] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:08:52] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:08:52] [Server thread/INFO]: [spidelini:  - Age: 55"]
+[04:08:54] [Server thread/INFO]: [spidelini: ]
+[04:08:54] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:08:54] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:08:54] [Server thread/INFO]: [spidelini:  - Age: 56"]
+[04:08:55] [Server thread/INFO]: [spidelini: ]
+[04:08:55] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:08:55] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:08:55] [Server thread/INFO]: [spidelini:  - Age: 57"]
+[04:08:56] [Server thread/INFO]: [spidelini: ]
+[04:08:56] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:08:56] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:08:56] [Server thread/INFO]: [spidelini:  - Age: 59"]
+[04:09:02] [Server thread/INFO]: [spidelini: ]
+[04:09:02] [Server thread/INFO]: [spidelini: Falling Block at [1040.5, 2.5, 1493.5]]
+[04:09:02] [Server thread/INFO]: [spidelini:  - Height: 1.80, Width: 0.60, Eye height: 1.53]
+[04:09:02] [Server thread/INFO]: [spidelini:  - Age: 1'5"]
+[04:09:05] [Server thread/WARN]: Keeping entity minecraft:cow that already exists with UUID a7929a83-5ab0-4bde-be82-6785710b11dc
+[04:10:11] [Server thread/INFO]: [spidelini: Teleported spidelini to 951.9491974847194, 5.0, 1436.6338359641195]
+[04:57:32] [Server thread/INFO]: spidelini lost connection: Disconnected
+[04:57:32] [Server thread/INFO]: spidelini left the game
+[04:57:42] [Server thread/INFO]: Stopping the server
+[04:57:42] [Server thread/INFO]: Stopping server
+[04:57:42] [Server thread/INFO]: Saving players
+[04:57:42] [Server thread/INFO]: Saving worlds
+[04:57:42] [Server thread/INFO]: Saving chunks for level 'world'/overworld
+[04:57:42] [Server thread/INFO]: Saving chunks for level 'world'/the_nether
+[04:57:42] [Server thread/INFO]: Saving chunks for level 'world'/the_end
+[04:57:42] [Server Shutdown Thread/INFO]: Stopping server
+[04:57:42] [Server Shutdown Thread/INFO]: Saving players

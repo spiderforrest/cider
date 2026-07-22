@@ -1,4 +1,10 @@
 {
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2026-02-11 19:06:45 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "extreme_hills": "2024-12-06 22:44:14 +0000"

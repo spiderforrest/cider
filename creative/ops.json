@@ -54,6 +54,12 @@
     "bypassesPlayerLimit": false
   },
   {
+    "uuid": "d0c5ae01-1546-4fc6-a8cd-59648f85a5ac",
+    "name": "Boredomdabottle",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "ce5912d6-4fc8-46f7-836d-b6f2134bca61",
     "name": "TransSpaceGirl",
     "level": 4,
@@ -74,6 +80,12 @@
   {
     "uuid": "ab188e05-f34c-4066-b069-85fe341cd516",
     "name": "SpearmintNya",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9b91fc90-19eb-4121-90a2-c930921f6509",
+    "name": "Rancharoni",
     "level": 4,
     "bypassesPlayerLimit": false
   }
