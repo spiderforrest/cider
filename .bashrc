@@ -1,22 +1,16 @@
 #!/bin/bash
 
-# spider's unified ~/.bashrc
-
 ### setup/misc ###
 
 # i want these to be available in non-interactive enviorments
 export PATH="$HOME/bin:$PATH"
-export PATH="$HOME/.local/bin:$PATH"
-export PATH="$HOME/.cargo/bin:$PATH"
-export PATH="$HOME/.nimble/bin:$PATH"
-export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export EDITOR=nvim
 
 # ignore the rest if not interactive
 [[ $- != *i* ]] && return
 
 # prompt
-PS1='\[\e[0;31m\]mine@legtwo \[\e[0m\]@ \[\e[0;36m\]\w \[\e[0m\]\$ \[\e[0m\]'
+PS1='\[\e[0;31m\]host@games \[\e[0m\]@ \[\e[0;36m\]\w \[\e[0m\]\$ \[\e[0m\]'
 
 # history configs
 export HISTCONTROL=ignoreboth
@@ -62,19 +56,6 @@ shove() {
     git commit -m "$message"
     git push
 }
-github() {
-    if [[ -z $1 ]] ; then return ; fi
-    cd ~/project/git || return
-    if echo "$1" | grep -q http; then
-        text=$(git clone "$1" 2>&1 >/dev/null)
-    else
-        text=$(git clone "https://github.com/$1.git" 2>&1 >/dev/null)
-    fi
-    dir=$(echo "$text" | grep -oE "'([^']*)'")
-    cd "$dir" || return
-    alacritty &
-    alacritty &
-}
 
 
 # consolidates ls,cat,mkdir,vim,touch,cd,vim again
@@ -107,10 +88,10 @@ uh() {
         printf "/// does not exist! create \"%s\" as a directory open a new file ///\n  for editor(assumed): *\n  for mkdir: d(irectory),m(kdir)\\n  for touch: t(ouch)\\n  cancel: n(o),c(ancel)\n" "$1"
         read -r i
         case "$i" in
-            n* | c*)	return								;;
+            n* | c*)	return					;;
             d* | m*)	mkdir -p "$1" && cd "$1" || return	;;
-            t*)         touch "$1"                          ;;
-            *)			nvim "$1"							;;
+            t*)         touch "$1"                              ;;
+            *)			nvim "$1"			;;
         esac
     fi
 }
@@ -127,9 +108,9 @@ extract() {
         *.tbz2)      tar xvjf "$1"				;;
         *.tgz)       tar xvzf "$1"				;;
         *.zip)       unzip "$1"   				;;
-        *.Z)         uncompress "$1"			;;
+        *.Z)         uncompress "$1"			        ;;
         *.7z)        7z x "$1"					;;
-        *) echo "that's unknownski my broski" 	;;
+        *) echo "that's unknownski my broski" 	                ;;
     esac
 }
 
@@ -137,30 +118,16 @@ extract() {
 
 # shorthands
 alias v='nvim'
-alias vw='nvim -u $HOME/.config/synced/writing.vim'
-alias suv='sudoedit'
-alias chkdns='ping 8.8.8.8'
 alias la='ls -Bbp1 -gah --group-directories-first --time-style=+%b\ %d --color=auto --hyperlink=auto'
 alias ls='ls -BNp1 --group-directories-first --color=auto --hyperlink=auto'
-alias ch='chore'
-alias godo='chore'
-alias gitfix='sed -i s/mindforrest/spiderforrest/ */.git/config'
-alias binfix='chmod +x ~/bin/* && cd ~/bin'
-alias fastread='fsrx'
-alias serv='ssh spider@spood.org -p 773'
-alias fserv='sftp -P 773 spider@spood.org'
-alias why_would_you_do_this_dude_why='xclip -o | shuf'
-cfg() { nvim "$HOME/.config/synced/$1"; }
 alias :q="exit" # ...
 
 alias sconsole='TERM=xterm screen -rS survival'
 alias cconsole='TERM=xterm screen -rS creative'
 
 # fixes/improvements
-alias sl='sl -la'
 alias rm='rm -rI'
 alias grep='grep --color=auto'
-alias btop='btop --utf-force'
 # alias sudo !!
 alias !='sudo /bin/bash -c "$(history -p !!)"'
 # allow aliasi to apply after sudo
@@ -178,7 +145,7 @@ export LESS_TERMCAP_ue=$'\E[0m'
 export LESS_TERMCAP_us=$'\E[01;32m'
 
 # attempt to set the terminal title
-trap 'echo -ne "\033]2;Alacritty | $(history 1 | sed "s/^[ ]*[0-9]*[ ]*//g")\007"' DEBUG
+trap 'echo -ne "\033]2;gamehost | $(history 1 | sed "s/^[ ]*[0-9]*[ ]*//g")\007"' DEBUG
 
 # MOTD
 printf "welcome to the minecraft(and other games) host user! reminders: screen -rS [creative, survival, etc] to attach and ctrl-a is the screen leader, and d is detatch\nuse cconsole and sconsole to access the minecraft consoles\no/\n"

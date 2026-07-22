@@ -36,7 +36,7 @@ else
 	# aaaaaa pls no bad
 	if $(echo "$list" | grep -qm 1 ".jar|.zip") ; then
 		echo "/// hhhhh there's a jar or something in there nope ///"
-		touch /home/spider/AAA\ I\ AM\ SAVEALL\ DOT\ SH\ AND\ I\ AM\ SCARED
+		touch "$HOME/AAA I AM SAVEALL DOT SH AND I AM SCARED"
 		exit
 	fi
 	for target in "${targets[@]}"; do
